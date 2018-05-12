@@ -1,4 +1,4 @@
-# YALE TEST
+# YALE DEV
 AppConfig[:container_management_barcode_length] = {
   :system_default => {
     :min=>14,
