@@ -28,6 +28,8 @@ AppConfig[:user_defined_in_basic] = {
   "hide_user_defined_section" => false
 }
 
+AppConfig[:solr_params] = {"mm" => "2<-25% 9<-3"}
+AppConfig[:pui_branding_img] = ''
 AppConfig[:pui_block_referrer]           = true
 AppConfig[:pui_enable_staff_link]        = true
 AppConfig[:pui_page_actions_print]       = false
@@ -68,63 +70,80 @@ AppConfig[:aeon_fulfillment] = {
     :aeon_web_url => "https://aeon-2-dev.its.yale.edu/aeon.dll",
     :aeon_return_link_label => "Return to Archives at Yale",
     :aeon_external_system_id => "ArchivesSpace",
+    :request_in_new_tab => true,
     :requests_permitted_for_containers_only => true,
-    :hide_button_for_accessions => true
+    :hide_button_for_accessions => true,
+    :site => "ART"
   },
   "brbl" => {
     :aeon_web_url => "https://aeon-1-dev.its.yale.edu/aeon.dll",
     :aeon_return_link_label => "Return to Archives at Yale",
     :aeon_external_system_id => "ArchivesSpace",
+    :request_in_new_tab => true,
     :requests_permitted_for_containers_only => true,
-    :hide_button_for_accessions => false
+    :hide_button_for_accessions => false,
+    :site => "BRBL"
   },
   "mssa" => {
     :aeon_web_url => "https://aeon-2-dev.its.yale.edu/aeon.dll",
     :aeon_return_link_label => "Return to Archives at Yale",
     :aeon_external_system_id => "ArchivesSpace",
+    :request_in_new_tab => true,
     :requests_permitted_for_containers_only => true,
-    :hide_button_for_accessions => true
+    :hide_button_for_accessions => true,
+    :site => "MSS"
   },
   "music" => {
     :aeon_web_url => "https://aeon-2-dev.its.yale.edu/aeon.dll",
     :aeon_return_link_label => "Return to Archives at Yale",
     :aeon_external_system_id => "ArchivesSpace",
+    :request_in_new_tab => true,
     :requests_permitted_for_containers_only => true,
-    :hide_button_for_accessions => true
+    :hide_button_for_accessions => true,
+    :site => "MUS"
   },
   "walpole" => {
     :aeon_web_url => "https://aeon-2-dev.its.yale.edu/aeon.dll",
     :aeon_return_link_label => "Return to Archives at Yale",
     :aeon_external_system_id => "ArchivesSpace",
+    :request_in_new_tab => true,
     :requests_permitted_for_containers_only => true,
-    :hide_button_for_accessions => false
+    :hide_button_for_accessions => false,
+    :site => "WAL"
   },
   "divinity" => {
     :aeon_web_url => "https://aeon-2-dev.its.yale.edu/aeon.dll",
     :aeon_return_link_label => "Return to Archives at Yale",
     :aeon_external_system_id => "ArchivesSpace",
+    :request_in_new_tab => true,
     :requests_permitted_for_containers_only => true,
-    :hide_button_for_accessions => false
+    :hide_button_for_accessions => false,
+    :site => "DIV"
   },
   "medical" => {
     :aeon_web_url => "https://aeon-2-dev.its.yale.edu/aeon.dll",
     :aeon_return_link_label => "Return to Archives at Yale",
     :aeon_external_system_id => "ArchivesSpace",
+    :request_in_new_tab => true,
     :requests_permitted_for_containers_only => true,
-    :hide_button_for_accessions => true
+    :hide_button_for_accessions => true,
+    :site => "MHL"
     },
   "ycba-rbm" => {
     :aeon_web_url => "https://aeon-2-dev.its.yale.edu/aeon.dll",
     :aeon_return_link_label => "Return to Archives at Yale",
     :aeon_external_system_id => "ArchivesSpace",
+    :request_in_new_tab => true,
     :requests_permitted_for_containers_only => true,
-    :hide_button_for_accessions => true
+    :hide_button_for_accessions => true,
+    :site => 'YCBA'
     },
   "peabody" => {
     :hide_request_button => true
   }
 }
 
+AppConfig[:aeon_fulfillment_button_position] = 0
 AppConfig[:aeon_fulfillment_record_types] = [
   "archival_object",
   "accession",
