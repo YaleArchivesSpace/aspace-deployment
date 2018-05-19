@@ -5,7 +5,7 @@ plugins:
     url: https://github.com/YaleArchivesSpace/pui-help.git
   - name: yale_pui_css
     git: true
-    branch: "master"
+    branch: "dev"
     url: https://github.com/YaleArchivesSpace/yale_pui_css.git
   - name: yale_pui_pdf
     git: true
@@ -63,3 +63,7 @@ plugins:
     git: true
     branch: "0.5"
     url: https://github.com/hudmol/yale_aeon_mappings.git
+  - name: in_a_rush
+    git: true
+    branch: "master"
+    url: https://github.com/marktriggs/in_a_rush.git
