@@ -98,11 +98,11 @@ AppConfig[:aeon_fulfillment] = {
     :hide_button_for_accessions => true,
     :document_type_map => {
       :default => 'Manuscript',
-      'mssa ru' => 'Archives',
+      'ru' => 'Archives',
     },
     :web_request_form_map => {
       :default => 'GenericRequestManuscript',
-      'mssa ru' => 'GenericRequestArchive',
+      'ru' => 'GenericRequestArchive',
     },
     :site => "MSS"
   },
