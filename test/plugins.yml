@@ -61,7 +61,7 @@ plugins:
     url: https://github.com/hudmol/ArchivesSpace-Aeon-Fulfillment-Plugin.git
   - name: yale_aeon_mappings
     git: true
-    branch: "0.5"
+    branch: "0.7"
     url: https://github.com/hudmol/yale_aeon_mappings.git
   - name: yale_pui_customizations
     git: true
