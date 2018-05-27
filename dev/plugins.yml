@@ -57,11 +57,11 @@ plugins:
     url: https://github.com/hudmol/digitization_work_order.git
   - name: ArchivesSpace-Aeon-Fulfillment-Plugin
     git: true
-    branch: "YT5"
+    branch: "YT6"
     url: https://github.com/hudmol/ArchivesSpace-Aeon-Fulfillment-Plugin.git
   - name: yale_aeon_mappings
     git: true
-    branch: "0.5"
+    branch: "0.7"
     url: https://github.com/hudmol/yale_aeon_mappings.git
   - name: in_a_rush
     git: true
