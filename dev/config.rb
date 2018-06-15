@@ -126,7 +126,7 @@ AppConfig[:aeon_fulfillment] = {
     :hide_button_for_accessions => true,
     :document_type_map => {:default => 'Manuscript'},
     :web_request_form_map => {:default => 'GenericRequestManuscript'},
-    :site => "WAL"
+    :site => "LWL"
   },
   "divinity" => {
     :aeon_web_url => "https://aeon-2-dev.its.yale.edu/aeon.dll",
@@ -137,7 +137,7 @@ AppConfig[:aeon_fulfillment] = {
     :hide_button_for_accessions => true,
     :document_type_map => {:default => 'Manuscript'},
     :web_request_form_map => {:default => 'GenericRequestManuscript'},
-    :site => "DIV"
+    :site => "DIVY"
   },
   "medical" => {
     :aeon_web_url => "https://aeon-2-dev.its.yale.edu/aeon.dll",

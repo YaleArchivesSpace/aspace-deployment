@@ -50,7 +50,7 @@ AppConfig[:aeon_fulfillment] = {
 :aeon_external_system_id => "ArchivesSpace",
 :requests_permitted_for_containers_only => true,
 :hide_button_for_accessions => true,
-:site => "WAL"
+:site => "LWL"
 },
   "divinity" => {
 :aeon_web_url => "https://aeon-2-dev.its.yale.edu/aeon.dll",
@@ -58,7 +58,7 @@ AppConfig[:aeon_fulfillment] = {
 :aeon_external_system_id => "ArchivesSpace",
 :requests_permitted_for_containers_only => true,
 :hide_button_for_accessions => true,
-:site => "DIV"
+:site => "DIVY"
 },
   "medical" => {
 :aeon_web_url => "https://aeon-2-dev.its.yale.edu/aeon.dll",
