@@ -1,1 +1,1 @@
-fordmadox/archivesspace:2.3.2-yale-v1
+fordmadox/archivesspace:2.4.1.yale
