@@ -71,3 +71,4 @@ plugins:
     git: true
     branch: "0.3"
     url: https://github.com/hudmol/child_publisher.git
+	
