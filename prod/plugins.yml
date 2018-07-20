@@ -21,7 +21,7 @@ plugins:
   #   url: https://github.com/YaleArchivesSpace/yale_pui_ask_a_question.git
   - name: YAML
     git: true
-    branch: "0.2"
+    branch: "master"
     url: https://github.com/YaleArchivesSpace/YAML.git
   - name: aspace_yale_pui
     git: true
