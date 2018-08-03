@@ -28,7 +28,7 @@ AppConfig[:user_defined_in_basic] = {
   "hide_user_defined_section" => false
 }
 
-AppConfig[:solr_params] = {"mm" => "2<-25% 9<-3"}
+
 AppConfig[:pui_branding_img] = ''
 AppConfig[:pui_block_referrer]         = true
 AppConfig[:pui_enable_staff_link]      = true
