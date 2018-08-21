@@ -28,7 +28,7 @@ AppConfig[:user_defined_in_basic] = {
   "hide_user_defined_section" => false
 }
 
-AppConfig[:solr_params] = {"mm" => "2<-25% 9<-3"}
+
 AppConfig[:pui_branding_img] = ''
 AppConfig[:pui_block_referrer]         = true
 AppConfig[:pui_enable_staff_link]      = true
@@ -75,7 +75,7 @@ AppConfig[:aeon_fulfillment] = {
     :hide_button_for_accessions => true,
     :document_type_map => {:default => 'Manuscript'},
     :web_request_form_map => {:default => 'GenericRequestManuscript'},
-    :site => "ART"
+    :aeon_site_code => "ART"
   },
   "brbl" => {
     :aeon_web_url => "https://aeon-1-dev.its.yale.edu/aeon.dll",
@@ -86,7 +86,7 @@ AppConfig[:aeon_fulfillment] = {
     :hide_button_for_accessions => false,
     :document_type_map => {:default => 'BRBL'},
     :web_request_form_map => {:default => 'GenericRequestORBIS'},
-    :site => "BRBL"
+    :aeon_site_code => "BRBL"
   },
   "mssa" => {
     :aeon_web_url => "https://aeon-2-dev.its.yale.edu/aeon.dll",
@@ -104,7 +104,7 @@ AppConfig[:aeon_fulfillment] = {
       :default => 'GenericRequestManuscript',
       'RU' => 'GenericRequestArchive',
     },
-    :site => "MSS"
+    :aeon_site_code => "MSS"
   },
   "music" => {
     :aeon_web_url => "https://aeon-2-dev.its.yale.edu/aeon.dll",
@@ -115,7 +115,7 @@ AppConfig[:aeon_fulfillment] = {
     :hide_button_for_accessions => true,
     :document_type_map => {:default => 'Manuscript'},
     :web_request_form_map => {:default => 'GenericRequestManuscript'},
-    :site => "MUS"
+    :aeon_site_code => "MUS"
   },
   "walpole" => {
     :aeon_web_url => "https://aeon-2-dev.its.yale.edu/aeon.dll",
@@ -126,7 +126,7 @@ AppConfig[:aeon_fulfillment] = {
     :hide_button_for_accessions => true,
     :document_type_map => {:default => 'Manuscript'},
     :web_request_form_map => {:default => 'GenericRequestManuscript'},
-    :site => "LWL"
+    :aeon_site_code => "LWL"
   },
   "divinity" => {
     :aeon_web_url => "https://aeon-2-dev.its.yale.edu/aeon.dll",
@@ -137,7 +137,7 @@ AppConfig[:aeon_fulfillment] = {
     :hide_button_for_accessions => true,
     :document_type_map => {:default => 'Manuscript'},
     :web_request_form_map => {:default => 'GenericRequestManuscript'},
-    :site => "DIVY"
+    :aeon_site_code => "DIVY"
   },
   "medical" => {
     :aeon_web_url => "https://aeon-2-dev.its.yale.edu/aeon.dll",
@@ -148,7 +148,7 @@ AppConfig[:aeon_fulfillment] = {
     :hide_button_for_accessions => true,
     :document_type_map => {:default => 'Manuscript'},
     :web_request_form_map => {:default => 'GenericRequestManuscript'},
-    :site => "MHL"
+    :aeon_site_code => "MHL"
   },
   "ycba-rbm" => {
     :aeon_web_url => "https://aeon-2-dev.its.yale.edu/aeon.dll",
@@ -159,7 +159,7 @@ AppConfig[:aeon_fulfillment] = {
     :hide_button_for_accessions => false,
     :document_type_map => {:default => 'Manuscript'},
     :web_request_form_map => {:default => 'GenericRequestManuscript'},
-    :site => 'YCBA'
+    :aeon_site_code => 'YCBA'
   },
   "peabody" => {
     :hide_request_button => true
@@ -209,6 +209,11 @@ AppConfig[:record_inheritance] = {
       :property => "notes",
       :inherit_if => proc { |json| json.select {|j| j["type"] == "accessrestrict"} },
       :inherit_directly => true
+    },
+    {
+      :property => "notes",
+      :inherit_if => proc { |json| json.select {|j| j["type"] == "prefercite"} },
+      :inherit_directly => false
     },
     ]
   }
