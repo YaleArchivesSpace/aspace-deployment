@@ -69,5 +69,5 @@ plugins:
     url: https://github.com/YaleArchivesSpace/yale_pui_customizations.git
   - name: child_publisher
     git: true
-    branch: "0.3"
+    branch: "0.4"
     url: https://github.com/hudmol/child_publisher.git
