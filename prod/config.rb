@@ -129,15 +129,7 @@ AppConfig[:aeon_fulfillment] = {
     :aeon_site_code => "LWL"
   },
   "divinity" => {
-    :aeon_web_url => "https://aeon-mssa.library.yale.edu/aeon.dll",
-    :aeon_return_link_label => "Return to Archives at Yale",
-    :aeon_external_system_id => "ArchivesSpace",
-    :request_in_new_tab => true,
-    :requests_permitted_for_containers_only => true,
-    :hide_button_for_accessions => true,
-    :document_type_map => {:default => 'Manuscript'},
-    :web_request_form_map => {:default => 'GenericRequestManuscript'},
-    :aeon_site_code => "DIVY"
+    :hide_request_button => true
   },
   "medical" => {
     :aeon_web_url => "https://aeon-mssa.library.yale.edu/aeon.dll",
@@ -151,15 +143,7 @@ AppConfig[:aeon_fulfillment] = {
     :aeon_site_code => "MHL"
   },
   "ycba-rbm" => {
-    :aeon_web_url => "https://aeon-mssa.library.yale.edu/aeon.dll",
-    :aeon_return_link_label => "Return to Archives at Yale",
-    :aeon_external_system_id => "ArchivesSpace",
-    :request_in_new_tab => true,
-    :requests_permitted_for_containers_only => false,
-    :hide_button_for_accessions => false,
-    :document_type_map => {:default => 'Manuscript'},
-    :web_request_form_map => {:default => 'GenericRequestManuscript'},
-    :aeon_site_code => 'YCBA'
+    :hide_request_button => true
   },
   "peabody" => {
     :hide_request_button => true
