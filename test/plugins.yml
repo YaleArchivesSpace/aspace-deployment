@@ -79,3 +79,7 @@ plugins:
     git: true
     branch: "0.4"
     url: https://github.com/hudmol/child_publisher.git
+  - name: yale_sui_frontdoor
+    git: true
+    branch: "test-and-dev"
+    url: https://github.com/YaleArchivesSpace/yale_sui_frontdoor.git
