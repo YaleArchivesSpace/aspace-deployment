@@ -10,6 +10,9 @@ AppConfig[:container_management_barcode_length] = {
   }
 }
 
+#something is overriding this now in our instances. if we re-add it here, will it work?
+AppConfig[:allow_user_registration] = true
+
 AppConfig[:container_management_extent_calculator] = {
   :report_volume => false,
   :unit => :feet,
