@@ -21,8 +21,8 @@ AppConfig[:container_management_extent_calculator] = {
 
 AppConfig[:digitization_work_order_ladybird]   = true
 AppConfig[:max_top_container_results]          = 2500
-AppConfig[:preservica_data_deleter_match_url]  = "https://preservica.library.yale.edu"
-AppConfig[:preservica_data_deleter_match_user] = "preservicaprod"
+#AppConfig[:preservica_data_deleter_match_url]  = "https://preservica.library.yale.edu"
+#AppConfig[:preservica_data_deleter_match_user] = "preservicaprod"
 
 AppConfig[:user_defined_in_basic] = {
   "accessions" => ["date_1", "text_1", "boolean_1", "boolean_2", "date_2", "string_2"],
