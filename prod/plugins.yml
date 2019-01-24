@@ -29,8 +29,8 @@ plugins:
     url: https://github.com/YaleArchivesSpace/YAML.git
   - name: aspace_yale_pui
     git: true
-    branch: "0.2"
-    url: https://github.com/hudmol/aspace_yale_pui.git
+    branch: "master"
+    url: https://github.com/YaleArchivesSpace/aspace_yale_pui.git
   - name: extended_advanced_search
     git: true
     branch: 01e3e218379fdf2beaacf6de77c801d7551bea60
@@ -51,10 +51,6 @@ plugins:
     git: true
     branch: "0.5"
     url: https://github.com/hudmol/user_defined_in_basic.git
-  - name: preservica_data_deleter
-    git: true
-    branch: "v0.6"
-    url: https://github.com/hudmol/preservica_data_deleter.git
   - name: digitization_work_order
     git: true
     branch: v1.4
