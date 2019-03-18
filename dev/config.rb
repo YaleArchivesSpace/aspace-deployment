@@ -72,10 +72,11 @@ AppConfig[:aeon_fulfillment] = {
     :aeon_external_system_id => "ArchivesSpace",
     :request_in_new_tab => true,
     :requests_permitted_for_containers_only => true,
+    :hide_button_for_access_restriction_types => ['NoRequest'],
     :hide_button_for_accessions => true,
     :document_type_map => {:default => 'Manuscript'},
     :web_request_form_map => {:default => 'GenericRequestManuscript'},
-    :site => "ART"
+    :aeon_site_code => "ART"
   },
   "brbl" => {
     :aeon_web_url => "https://aeon-1-dev.its.yale.edu/aeon.dll",
@@ -83,10 +84,11 @@ AppConfig[:aeon_fulfillment] = {
     :aeon_external_system_id => "ArchivesSpace",
     :request_in_new_tab => true,
     :requests_permitted_for_containers_only => true,
+    :hide_button_for_access_restriction_types => ['NoRequest'],
     :hide_button_for_accessions => false,
     :document_type_map => {:default => 'BRBL'},
     :web_request_form_map => {:default => 'GenericRequestORBIS'},
-    :site => "BRBL"
+    :aeon_site_code => "BRBL"
   },
   "mssa" => {
     :aeon_web_url => "https://aeon-2-dev.its.yale.edu/aeon.dll",
@@ -104,7 +106,7 @@ AppConfig[:aeon_fulfillment] = {
       :default => 'GenericRequestManuscript',
       'RU' => 'GenericRequestArchive',
     },
-    :site => "MSS"
+    :aeon_site_code => "MSS"
   },
   "music" => {
     :aeon_web_url => "https://aeon-2-dev.its.yale.edu/aeon.dll",
@@ -112,10 +114,11 @@ AppConfig[:aeon_fulfillment] = {
     :aeon_external_system_id => "ArchivesSpace",
     :request_in_new_tab => true,
     :requests_permitted_for_containers_only => true,
+    :hide_button_for_access_restriction_types => ['NoRequest'],
     :hide_button_for_accessions => true,
     :document_type_map => {:default => 'Manuscript'},
     :web_request_form_map => {:default => 'GenericRequestManuscript'},
-    :site => "MUS"
+    :aeon_site_code => "MUS"
   },
   "walpole" => {
     :aeon_web_url => "https://aeon-2-dev.its.yale.edu/aeon.dll",
@@ -123,10 +126,11 @@ AppConfig[:aeon_fulfillment] = {
     :aeon_external_system_id => "ArchivesSpace",
     :request_in_new_tab => true,
     :requests_permitted_for_containers_only => true,
+    :hide_button_for_access_restriction_types => ['NoRequest'],
     :hide_button_for_accessions => true,
     :document_type_map => {:default => 'Manuscript'},
     :web_request_form_map => {:default => 'GenericRequestManuscript'},
-    :site => "LWL"
+    :aeon_site_code => "LWL"
   },
   "divinity" => {
     :aeon_web_url => "https://aeon-2-dev.its.yale.edu/aeon.dll",
@@ -134,10 +138,11 @@ AppConfig[:aeon_fulfillment] = {
     :aeon_external_system_id => "ArchivesSpace",
     :request_in_new_tab => true,
     :requests_permitted_for_containers_only => true,
+    :hide_button_for_access_restriction_types => ['NoRequest'],
     :hide_button_for_accessions => true,
     :document_type_map => {:default => 'Manuscript'},
     :web_request_form_map => {:default => 'GenericRequestManuscript'},
-    :site => "DIVY"
+    :aeon_site_code => "DIVY"
   },
   "medical" => {
     :aeon_web_url => "https://aeon-2-dev.its.yale.edu/aeon.dll",
@@ -145,10 +150,11 @@ AppConfig[:aeon_fulfillment] = {
     :aeon_external_system_id => "ArchivesSpace",
     :request_in_new_tab => true,
     :requests_permitted_for_containers_only => true,
+    :hide_button_for_access_restriction_types => ['NoRequest'],
     :hide_button_for_accessions => true,
     :document_type_map => {:default => 'Manuscript'},
     :web_request_form_map => {:default => 'GenericRequestManuscript'},
-    :site => "MHL"
+    :aeon_site_code => "MHL"
   },
   "ycba-ia" => {
     :aeon_web_url => "https://aeon-2-dev.its.yale.edu/aeon.dll",
