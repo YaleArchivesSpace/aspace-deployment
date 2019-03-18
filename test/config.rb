@@ -156,6 +156,18 @@ AppConfig[:aeon_fulfillment] = {
     :web_request_form_map => {:default => 'GenericRequestManuscript'},
     :aeon_site_code => "MHL"
   },
+  "ycba-ia" => {
+    :aeon_web_url => "https://aeon-2-dev.its.yale.edu/aeon.dll",
+    :aeon_return_link_label => "Return to Archives at Yale",
+    :aeon_external_system_id => "ArchivesSpace",
+    :request_in_new_tab => true,
+    :requests_permitted_for_containers_only => true,
+    :hide_button_for_access_restriction_types => ['NoRequest'],
+    :hide_button_for_accessions => true,
+    :document_type_map => {:default => 'Manuscript'},
+    :web_request_form_map => {:default => 'GenericRequestManuscript'},
+    :aeon_site_code => 'YCBA'
+  },
   "ycba-rbm" => {
     :aeon_web_url => "https://aeon-2-dev.its.yale.edu/aeon.dll",
     :aeon_return_link_label => "Return to Archives at Yale",
