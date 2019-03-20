@@ -29,8 +29,8 @@ plugins:
     url: https://github.com/YaleArchivesSpace/YAML.git
   - name: aspace_yale_pui
     git: true
-    branch: "0.2"
-    url: https://github.com/hudmol/aspace_yale_pui.git
+    branch: "master"
+    url: https://github.com/YaleArchivesSpace/aspace_yale_pui.git
   - name: extended_advanced_search
     git: true
     branch: 01e3e218379fdf2beaacf6de77c801d7551bea60
@@ -57,7 +57,7 @@ plugins:
     url: https://github.com/hudmol/preservica_data_deleter.git
   - name: digitization_work_order
     git: true
-    branch: v1.5
+    branch: v1.6
     url: https://github.com/hudmol/digitization_work_order.git
   - name: ArchivesSpace-Aeon-Fulfillment-Plugin
     git: true
@@ -65,7 +65,7 @@ plugins:
     url: https://github.com/YaleArchivesSpace/ArchivesSpace-Aeon-Fulfillment-Plugin.git
   - name: yale_aeon_mappings
     git: true
-    branch: "new-mappings"
+    branch: "test-and-dev"
     url: https://github.com/YaleArchivesSpace/yale_aeon_mappings.git
   - name: yale_pui_customizations
     git: true
