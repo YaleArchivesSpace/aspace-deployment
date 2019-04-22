@@ -160,7 +160,7 @@ AppConfig[:aeon_fulfillment] = {
     :aeon_site_code => "MHL"
   },
   "ycba-ia" => {
-    :aeon_web_url => "https://aeon-2-dev.its.yale.edu/aeon.dll",
+    :aeon_web_url => "https://aeon-mssa.library.yale.edu/aeon.dll",
     :aeon_return_link_label => "Return to Archives at Yale",
     :aeon_external_system_id => "ArchivesSpace",
     :request_in_new_tab => true,
