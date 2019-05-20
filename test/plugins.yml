@@ -83,3 +83,7 @@ plugins:
     git: true
     branch: "test-and-dev"
     url: https://github.com/YaleArchivesSpace/yale_sui_frontdoor.git
+  - name: yale_marcxml_export_plugin
+    git: true
+    branch: "master"
+    url: https://github.com/YaleArchivesSpace/yale_marcxml_export_plugin.git
