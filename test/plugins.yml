@@ -87,3 +87,7 @@ plugins:
     git: true
     branch: "master"
     url: https://github.com/YaleArchivesSpace/yale_marcxml_export_plugin.git
+  - name: yale_series_titles
+    git: true
+    branch: "master"
+    url: https://github.com/hudmol/yale_series_titles.git
