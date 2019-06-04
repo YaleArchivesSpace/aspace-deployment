@@ -182,6 +182,9 @@ AppConfig[:aeon_fulfillment] = {
   },
   "peabody" => {
     :hide_request_button => true
+  },
+  "oham" => {
+    :hide_request_button => true
   }
 }
 
