@@ -53,7 +53,7 @@ plugins:
     url: https://github.com/hudmol/user_defined_in_basic.git
   - name: digitization_work_order
     git: true
-    branch: v1.4
+    branch: v1.6
     url: https://github.com/hudmol/digitization_work_order.git
   - name: ArchivesSpace-Aeon-Fulfillment-Plugin
     git: true
