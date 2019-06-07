@@ -87,3 +87,8 @@ plugins:
     git: true
     branch: "master"
     url: https://github.com/YaleArchivesSpace/yale_marcxml_export_plugin.git
+  - name: yale_yale_accession_slips
+    git: true
+    branch: "master"
+    url: https://github.com/hudmol/yale_accession_slips.git
+
