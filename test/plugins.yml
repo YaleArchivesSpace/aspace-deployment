@@ -95,3 +95,4 @@ plugins:
     git: true
     branch: "master"
     url: https://github.com/YaleArchivesSpace/ancestor_search_error_addon.git
+
