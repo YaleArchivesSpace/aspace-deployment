@@ -95,4 +95,7 @@ plugins:
     git: true
     branch: "master"
     url: https://github.com/YaleArchivesSpace/ancestor_search_error_addon.git
-
+  - name: yale_accession_slips
+    git: true
+    branch: "master"
+    url: https://github.com/hudmol/yale_accession_slips.git
