@@ -29,8 +29,8 @@ plugins:
     url: https://github.com/YaleArchivesSpace/aspace_yale_pui.git
   - name: extended_advanced_search
     git: true
-    branch: 01e3e218379fdf2beaacf6de77c801d7551bea60
-    url: https://github.com/hudmol/extended_advanced_search.git
+    branch: "master"
+    url: https://github.com/YaleArchivesSpace/extended_advanced_search
   - name: aspace_yale_accessions
     git: true
     branch: "1.1"
