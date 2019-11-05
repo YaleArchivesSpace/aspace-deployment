@@ -2,7 +2,7 @@ plugins:
   - name: ead_export_addon
     git: true
     branch: "master"
-    url: https://github.com/YaleArchivesSpace/ead_export_addon
+    url: https://github.com/YaleArchivesSpace/ead_export_addon.git
   - name: pui-help
     git: true
     branch: "master"
