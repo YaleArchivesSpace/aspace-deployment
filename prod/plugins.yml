@@ -30,7 +30,7 @@ plugins:
   - name: extended_advanced_search
     git: true
     branch: "master"
-    url: https://github.com/YaleArchivesSpace/extended_advanced_search
+    url: https://github.com/YaleArchivesSpace/extended_advanced_search.git
   - name: aspace_yale_accessions
     git: true
     branch: "1.1"
