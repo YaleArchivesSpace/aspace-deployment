@@ -23,10 +23,6 @@ plugins:
     git: true
     branch: "master"
     url: https://github.com/YaleArchivesSpace/yale_pui_ask_a_question.git
-  - name: YAML
-    git: true
-    branch: "master"
-    url: https://github.com/YaleArchivesSpace/YAML.git
   - name: aspace_yale_pui
     git: true
     branch: "master"
@@ -103,4 +99,7 @@ plugins:
     git: true
     branch: "master"
     url: https://github.com/YaleArchivesSpace/display_multiple_containers.git
-
+  - name: YAML
+    git: true
+    branch: "master"
+    url: https://github.com/YaleArchivesSpace/YAML.git
