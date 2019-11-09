@@ -1,0 +1,85 @@
+plugins:
+  - name: ead_export_addon
+    git: true
+    branch: "prod-test-branch"
+    url: https://github.com/YaleArchivesSpace/ead_export_addon.git
+  - name: pui-help
+    git: true
+    branch: "master"
+    url: https://github.com/YaleArchivesSpace/pui-help.git
+  - name: yale_pui_css
+    git: true
+    branch: "master"
+    url: https://github.com/YaleArchivesSpace/yale_pui_css.git
+  - name: yale_pui_pdf
+    git: true
+    branch: "master"
+    url: https://github.com/YaleArchivesSpace/yale_pui_pdf.git
+  - name: yale_pui_hashtag
+    git: true
+    branch: "master"
+    url: https://github.com/YaleArchivesSpace/yale_pui_hashtag.git
+  - name: yale_pui_ask_a_question
+    git: true
+    branch: "master"
+    url: https://github.com/YaleArchivesSpace/yale_pui_ask_a_question.git
+  - name: aspace_yale_pui
+    git: true
+    branch: "master"
+    url: https://github.com/YaleArchivesSpace/aspace_yale_pui.git
+  - name: extended_advanced_search
+    git: true
+    branch: "master"
+    url: https://github.com/YaleArchivesSpace/extended_advanced_search.git
+  - name: aspace_yale_accessions
+    git: true
+    branch: "1.1"
+    url: https://github.com/hudmol/aspace_yale_accessions.git
+  - name: material_types
+    git: true
+    branch: e7384d7bb2f99f070e4c70e3061704ea37525c85
+    url: https://github.com/hudmol/material_types.git
+  - name: payments_module
+    git: true
+    branch: 5fddd44caf2002ba34578e1eead7fb9efb83cdee
+    url: https://github.com/hudmol/payments_module.git
+  - name: user_defined_in_basic
+    git: true
+    branch: "0.5"
+    url: https://github.com/hudmol/user_defined_in_basic.git
+  - name: digitization_work_order
+    git: true
+    branch: v1.7
+    url: https://github.com/hudmol/digitization_work_order.git
+  - name: ArchivesSpace-Aeon-Fulfillment-Plugin
+    git: true
+    branch: "local-updates"
+    url: https://github.com/YaleArchivesSpace/ArchivesSpace-Aeon-Fulfillment-Plugin.git
+  - name: yale_aeon_mappings
+    git: true
+    branch: "master"
+    url: https://github.com/YaleArchivesSpace/yale_aeon_mappings.git
+  - name: yale_pui_customizations
+    git: true
+    branch: "master"
+    url: https://github.com/YaleArchivesSpace/yale_pui_customizations.git
+  - name: child_publisher
+    git: true
+    branch: "0.5"
+    url: https://github.com/hudmol/child_publisher.git
+  - name: yale_sui_frontdoor
+    git: true
+    branch: "master"
+    url: https://github.com/YaleArchivesSpace/yale_sui_frontdoor.git
+  - name: yale_marcxml_export_plugin
+    git: true
+    branch: "master"
+    url: https://github.com/YaleArchivesSpace/yale_marcxml_export_plugin.git
+  - name: yale_accession_slips
+    git: true
+    branch: "master"
+    url: https://github.com/hudmol/yale_accession_slips.git
+  - name: YAML
+    git: true
+    branch: "master"
+    url: https://github.com/YaleArchivesSpace/YAML.git
