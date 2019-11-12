@@ -9,7 +9,7 @@ plugins:
     url: https://github.com/YaleArchivesSpace/pui-help.git
   - name: yale_pui_css
     git: true
-    branch: "master"
+    branch: "test"
     url: https://github.com/YaleArchivesSpace/yale_pui_css.git
   - name: yale_pui_pdf
     git: true
@@ -75,6 +75,10 @@ plugins:
     git: true
     branch: "master"
     url: https://github.com/YaleArchivesSpace/yale_marcxml_export_plugin.git
+  - name: yale_series_titles
+    git: true
+    branch: "mixed_content"
+    url: https://github.com/YaleArchivesSpace/yale_series_titles.git
   - name: yale_accession_slips
     git: true
     branch: "master"
