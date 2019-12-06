@@ -63,6 +63,10 @@ plugins:
     git: true
     branch: "master"
     url: https://github.com/YaleArchivesSpace/yale_pui_customizations.git
+  - name: in_a_rush
+    git: true
+    branch: "master"
+    url: https://github.com/marktriggs/in_a_rush.git
   - name: child_publisher
     git: true
     branch: "0.5"
@@ -75,10 +79,22 @@ plugins:
     git: true
     branch: "master"
     url: https://github.com/YaleArchivesSpace/yale_marcxml_export_plugin.git
+  - name: yale_series_titles
+    git: true
+    branch: "mixed_content"
+    url: https://github.com/YaleArchivesSpace/yale_series_titles.git
+  - name: ancestor_search_error_addon
+    git: true
+    branch: "master"
+    url: https://github.com/YaleArchivesSpace/ancestor_search_error_addon.git
   - name: yale_accession_slips
     git: true
     branch: "master"
     url: https://github.com/hudmol/yale_accession_slips.git
+  - name: display_multiple_containers
+    git: true
+    branch: "master"
+    url: https://github.com/YaleArchivesSpace/display_multiple_containers.git
   - name: YAML
     git: true
     branch: "master"
