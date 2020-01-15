@@ -229,7 +229,7 @@ AppConfig[:record_inheritance] = {
     {
       :property => "notes",
       :inherit_if => proc { |json| json.select {|j| j["type"] == "accessrestrict"} },
-      :inherit_directly => true
+      :inherit_directly => false
     },
     {
       :property => "notes",
