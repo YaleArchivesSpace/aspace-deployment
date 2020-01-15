@@ -222,10 +222,6 @@ AppConfig[:record_inheritance] = {
       :inherit_directly => true
     },
     {
-      :property => "extents",
-      :inherit_directly => false
-    },
-    {
       :property => "linked_agents",
       :inherit_if => proc { |json| json.select {|j| j["role"] == "creator"} },
       :inherit_directly => false
