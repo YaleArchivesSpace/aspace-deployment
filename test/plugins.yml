@@ -99,6 +99,10 @@ plugins:
     git: true
     branch: "master"
     url: https://github.com/YaleArchivesSpace/display_multiple_containers.git
+  - name: omniauthCas
+    git: true
+    branch: "master"
+    url: https://github.com/YaleArchivesSpace/aspace-omniauth-cas.git
   - name: YAML
     git: true
     branch: "master"
