@@ -202,7 +202,7 @@ AppConfig[:record_inheritance] = {
   :archival_object => {
     :composite_identifiers => {
     :include_level => true,
-    :identifier_delimiter => " ",
+    :identifier_delimiter => ",",
     },
     :inherited_fields => [
     {
