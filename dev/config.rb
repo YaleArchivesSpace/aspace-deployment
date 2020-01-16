@@ -214,7 +214,7 @@ AppConfig[:record_inheritance] = {
       :inherit_directly => false
     },
     {
-      :property => "language",
+      :property => "lang_materials",
       :inherit_directly => true
     },
     {
