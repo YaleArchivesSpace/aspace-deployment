@@ -202,7 +202,7 @@ AppConfig[:record_inheritance] = {
   :archival_object => {
     :composite_identifiers => {
     :include_level => true,
-    :identifier_delimiter => " ",
+    :identifier_delimiter => ",",
     },
     :inherited_fields => [
     {
@@ -222,10 +222,6 @@ AppConfig[:record_inheritance] = {
       :inherit_directly => true
     },
     {
-      :property => "extents",
-      :inherit_directly => false
-    },
-    {
       :property => "linked_agents",
       :inherit_if => proc { |json| json.select {|j| j["role"] == "creator"} },
       :inherit_directly => false
@@ -233,11 +229,6 @@ AppConfig[:record_inheritance] = {
     {
       :property => "notes",
       :inherit_if => proc { |json| json.select {|j| j["type"] == "accessrestrict"} },
-      :inherit_directly => true
-    },
-    {
-      :property => "notes",
-      :inherit_if => proc { |json| json.select {|j| j["type"] == "prefercite"} },
       :inherit_directly => false
     },
     ]
