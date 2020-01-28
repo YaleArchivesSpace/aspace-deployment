@@ -196,6 +196,7 @@ AppConfig[:aeon_fulfillment_record_types] = [
   "archival_object",
   "accession",
   "top_container",
+  "resource"
 ]
 
 AppConfig[:record_inheritance] = {
