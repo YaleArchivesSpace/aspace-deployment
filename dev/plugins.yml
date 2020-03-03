@@ -65,7 +65,7 @@ plugins:
     url: https://github.com/YaleArchivesSpace/yale_aeon_mappings.git
   - name: yale_pui_customizations
     git: true
-    branch: "test-and-dev"
+    branch: "dev"
     url: https://github.com/YaleArchivesSpace/yale_pui_customizations.git
   - name: in_a_rush
     git: true
