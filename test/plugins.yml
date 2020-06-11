@@ -57,7 +57,7 @@ plugins:
     url: https://github.com/hudmol/digitization_work_order.git
   - name: ArchivesSpace-Aeon-Fulfillment-Plugin
     git: true
-    branch: "local-updates"
+    branch: "master"
     url: https://github.com/YaleArchivesSpace/ArchivesSpace-Aeon-Fulfillment-Plugin.git
   - name: yale_aeon_mappings
     git: true
@@ -87,10 +87,6 @@ plugins:
     git: true
     branch: "mixed_content"
     url: https://github.com/YaleArchivesSpace/yale_series_titles.git
-  - name: ancestor_search_error_addon
-    git: true
-    branch: "master"
-    url: https://github.com/YaleArchivesSpace/ancestor_search_error_addon.git
   - name: yale_accession_slips
     git: true
     branch: "master"
@@ -105,7 +101,7 @@ plugins:
     url: https://github.com/YaleArchivesSpace/aspace-omniauth-cas.git
   - name: archivesspace_delete_button_context_plugin
     git: true
-    branch: "test_2.4.1"
+    branch: "test"
     url: https://github.com/YaleArchivesSpace/archivesspace_delete_button_context_plugin.git
   - name: YAML
     git: true
