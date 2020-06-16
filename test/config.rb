@@ -195,8 +195,7 @@ AppConfig[:aeon_fulfillment_button_position] = 0
 AppConfig[:aeon_fulfillment_record_types] = [
   "archival_object",
   "accession",
-  "top_container",
-  "resource"
+  "top_container"
 ]
 
 AppConfig[:record_inheritance] = {
