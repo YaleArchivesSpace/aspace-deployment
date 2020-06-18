@@ -103,6 +103,10 @@ plugins:
     git: true
     branch: "test"
     url: https://github.com/YaleArchivesSpace/archivesspace_delete_button_context_plugin.git
+  - name: yale_onsite_locations
+    git: true
+    branch: "v0.2"
+    url: https://github.com/hudmol/yale_onsite_locations.git
   - name: YAML
     git: true
     branch: "test"
