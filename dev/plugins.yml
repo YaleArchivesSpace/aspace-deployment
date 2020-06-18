@@ -49,7 +49,7 @@ plugins:
     url: https://github.com/hudmol/user_defined_in_basic.git
   - name: preservica_data_deleter
     git: true
-    branch: "v0.5"
+    branch: "v0.6"
     url: https://github.com/hudmol/preservica_data_deleter.git
   - name: digitization_work_order
     git: true
