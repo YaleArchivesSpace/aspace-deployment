@@ -240,6 +240,8 @@ AppConfig[:record_inheritance] = {
   }
 }
 
+AppConfig[:libcal_service_id] = '457'
+
 AppConfig[:omniauthCas] = {
   :provider => {
           :url                  => 'https://secure.its.yale.edu',
