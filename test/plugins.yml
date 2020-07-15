@@ -7,10 +7,6 @@ plugins:
     git: true
     branch: "master"
     url: https://github.com/YaleArchivesSpace/pui-help.git
-  - name: yale_pui_css
-    git: true
-    branch: "test"
-    url: https://github.com/YaleArchivesSpace/yale_pui_css.git
   - name: yale_pui_pdf
     git: true
     branch: "master"
@@ -63,10 +59,6 @@ plugins:
     git: true
     branch: "test"
     url: https://github.com/YaleArchivesSpace/yale_aeon_mappings.git
-  - name: yale_pui_customizations
-    git: true
-    branch: "test"
-    url: https://github.com/YaleArchivesSpace/yale_pui_customizations.git
   - name: in_a_rush
     git: true
     branch: "master"
@@ -75,10 +67,6 @@ plugins:
     git: true
     branch: "0.6"
     url: https://github.com/hudmol/child_publisher.git
-  - name: yale_sui_frontdoor
-    git: true
-    branch: "test-and-dev"
-    url: https://github.com/YaleArchivesSpace/yale_sui_frontdoor.git
   - name: yale_marcxml_export_plugin
     git: true
     branch: "test"
@@ -111,7 +99,11 @@ plugins:
     git: true
     branch: "v0.1"
     url: https://github.com/hudmol/yale_repositories.git
-  - name: YAML
+  - name: yale_pui_customizations
     git: true
     branch: "test"
-    url: https://github.com/YaleArchivesSpace/YAML.git
+    url: https://github.com/YaleArchivesSpace/yale_pui_customizations.git
+  - name: yale_staff_customizations
+    git: true
+    branch: "test"
+    url: https://github.com/YaleArchivesSpace/yale_staff_customizations.git

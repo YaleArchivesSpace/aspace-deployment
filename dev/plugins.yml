@@ -7,18 +7,10 @@ plugins:
     git: true
     branch: "master"
     url: https://github.com/YaleArchivesSpace/pui-help.git
-  - name: yale_pui_css
-    git: true
-    branch: "dev"
-    url: https://github.com/YaleArchivesSpace/yale_pui_css.git
   - name: yale_pui_pdf
     git: true
     branch: "master"
     url: https://github.com/YaleArchivesSpace/yale_pui_pdf.git
-  - name: yale_pui_hashtag
-    git: true
-    branch: "master"
-    url: https://github.com/YaleArchivesSpace/yale_pui_hashtag.git
   - name: yale_pui_ask_a_question
     git: true
     branch: "master"
@@ -45,7 +37,7 @@ plugins:
     url: https://github.com/hudmol/payments_module.git
   - name: user_defined_in_basic
     git: true
-    branch: "0.5"
+    branch: "0.6"
     url: https://github.com/hudmol/user_defined_in_basic.git
   - name: preservica_data_deleter
     git: true
@@ -53,7 +45,7 @@ plugins:
     url: https://github.com/hudmol/preservica_data_deleter.git
   - name: digitization_work_order
     git: true
-    branch: v1.7
+    branch: v1.8
     url: https://github.com/hudmol/digitization_work_order.git
   - name: ArchivesSpace-Aeon-Fulfillment-Plugin
     git: true
@@ -63,22 +55,14 @@ plugins:
     git: true
     branch: "dev"
     url: https://github.com/YaleArchivesSpace/yale_aeon_mappings.git
-  - name: yale_pui_customizations
-    git: true
-    branch: "dev"
-    url: https://github.com/YaleArchivesSpace/yale_pui_customizations.git
   - name: in_a_rush
     git: true
     branch: "master"
     url: https://github.com/marktriggs/in_a_rush.git
   - name: child_publisher
     git: true
-    branch: "0.5"
+    branch: "0.6"
     url: https://github.com/hudmol/child_publisher.git
-  - name: yale_sui_frontdoor
-    git: true
-    branch: "test-and-dev"
-    url: https://github.com/YaleArchivesSpace/yale_sui_frontdoor.git
   - name: yale_marcxml_export_plugin
     git: true
     branch: "master"
@@ -95,7 +79,11 @@ plugins:
     git: true
     branch: "master"
     url: https://github.com/YaleArchivesSpace/aspace-omniauth-cas.git
-  - name: YAML
+  - name: yale_pui_customizations
     git: true
-    branch: "master"
-    url: https://github.com/YaleArchivesSpace/YAML.git
+    branch: "dev"
+    url: https://github.com/YaleArchivesSpace/yale_pui_customizations.git
+  - name: yale_staff_customizations
+    git: true
+    branch: "test"
+    url: https://github.com/YaleArchivesSpace/yale_staff_customizations.git
