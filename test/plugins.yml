@@ -107,3 +107,8 @@ plugins:
     git: true
     branch: "test"
     url: https://github.com/YaleArchivesSpace/yale_staff_customizations.git
+  - name: yale-archivesspace-reports
+    git: true
+    branch: "master"
+    url: https://github.com/YaleArchivesSpace/yale-archivesspace-reports.git
+    
