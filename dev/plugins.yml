@@ -79,11 +79,15 @@ plugins:
     git: true
     branch: "master"
     url: https://github.com/YaleArchivesSpace/aspace-omniauth-cas.git
-  - name: yale_pui_customizations
+  - name: yale_pui_dev_only
     git: true
-    branch: "dev"
-    url: https://github.com/YaleArchivesSpace/yale_pui_customizations.git
+    branch: "master"
+    url: https://github.com/YaleArchivesSpace/yale_pui_dev_only.git
   - name: yale_staff_customizations
     git: true
     branch: "test"
     url: https://github.com/YaleArchivesSpace/yale_staff_customizations.git
+  - name: yale-archivesspace-reports
+    git: true
+    branch: "dev"
+    url: https://github.com/YaleArchivesSpace/yale-archivesspace-reports.git
