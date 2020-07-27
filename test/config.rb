@@ -243,7 +243,7 @@ AppConfig[:record_inheritance] = {
   }
 }
 
-AppConfig[:google_maps_api_key] = ENV.fetch('google-maps-api-key', nil)
+AppConfig[:google_maps_api_key] = ENV.fetch('google_maps_api_key', nil)
 AppConfig[:libcal_service_id] = '457'
 
 AppConfig[:omniauthCas] = {
