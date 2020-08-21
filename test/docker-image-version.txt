@@ -1,1 +1,1 @@
-fordmadox/archivesspace:2.7.1.yale.20200720
+fordmadox/archivesspace:2.7.1.yale.20200820
