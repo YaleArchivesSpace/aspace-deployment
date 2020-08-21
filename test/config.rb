@@ -248,10 +248,10 @@ AppConfig[:libcal_service_id] = '457'
 
 AppConfig[:omniauthCas] = {
   :provider => {
-          :url                  => 'https://secure.its.yale.edu',
+          :url                  => 'https://secure6.its.yale.edu',
           :login_url            => '/cas/login',
           :service_validate_url => '/cas/serviceValidate',
-          :host                 => 'secure.its.yale.edu',
+          :host                 => 'secure6.its.yale.edu',
           :ssl                  => true,
   },
   :frontendUidProc    => lambda { |hash| hash['uid'] },
