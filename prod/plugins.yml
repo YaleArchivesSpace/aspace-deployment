@@ -7,10 +7,6 @@ plugins:
     git: true
     branch: "master"
     url: https://github.com/YaleArchivesSpace/pui-help.git
-  - name: yale_pui_css
-    git: true
-    branch: "master"
-    url: https://github.com/YaleArchivesSpace/yale_pui_css.git
   - name: yale_pui_pdf
     git: true
     branch: "master"
