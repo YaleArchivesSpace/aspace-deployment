@@ -45,7 +45,7 @@ plugins:
     url: https://github.com/hudmol/preservica_data_deleter.git
   - name: digitization_work_order
     git: true
-    branch: v1.8
+    branch: v1.10
     url: https://github.com/hudmol/digitization_work_order.git
   - name: ArchivesSpace-Aeon-Fulfillment-Plugin
     git: true
@@ -79,6 +79,10 @@ plugins:
     git: true
     branch: "master"
     url: https://github.com/YaleArchivesSpace/aspace-omniauth-cas.git
+  - name: archivesspace_delete_button_context_plugin
+    git: true
+    branch: "master"
+    url: https://github.com/YaleArchivesSpace/archivesspace_delete_button_context_plugin.git
   - name: yale_pui_dev_only
     git: true
     branch: "master"
