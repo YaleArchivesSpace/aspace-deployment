@@ -55,10 +55,6 @@ plugins:
     git: true
     branch: "master"
     url: https://github.com/YaleArchivesSpace/yale_aeon_mappings.git
-  - name: yale_pui_customizations
-    git: true
-    branch: "master"
-    url: https://github.com/YaleArchivesSpace/yale_pui_customizations.git
   - name: in_a_rush
     git: true
     branch: "master"
@@ -99,7 +95,11 @@ plugins:
     git: true
     branch: "master"
     url: https://github.com/YaleArchivesSpace/archivesspace_delete_button_context_plugin.git
-  - name: YAML
+  - name: yale_pui_customizations
     git: true
     branch: "master"
-    url: https://github.com/YaleArchivesSpace/YAML.git
+    url: https://github.com/YaleArchivesSpace/yale_pui_customizations.git
+  - name: yale_staff_customizations
+    git: true
+    branch: "master"
+    url: https://github.com/YaleArchivesSpace/yale_staff_customizations.git
