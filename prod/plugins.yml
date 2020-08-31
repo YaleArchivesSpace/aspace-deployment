@@ -99,6 +99,10 @@ plugins:
     git: true
     branch: "master"
     url: https://github.com/YaleArchivesSpace/aspace-omniauth-cas.git
+  - name: archivesspace_delete_button_context_plugin
+    git: true
+    branch: "master"
+    url: https://github.com/YaleArchivesSpace/archivesspace_delete_button_context_plugin.git
   - name: YAML
     git: true
     branch: "master"
