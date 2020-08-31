@@ -69,7 +69,7 @@ plugins:
     url: https://github.com/hudmol/child_publisher.git
   - name: yale_marcxml_export_plugin
     git: true
-    branch: "test"
+    branch: "master"
     url: https://github.com/YaleArchivesSpace/yale_marcxml_export_plugin.git
   - name: yale_series_titles
     git: true
