@@ -243,6 +243,9 @@ AppConfig[:record_inheritance] = {
   }
 }
 
+AppConfig[:google_maps_api_key] = ENV.fetch('GOOGLE_MAPS_API_KEY', nil)
+AppConfig[:libcal_service_id] = '457'
+
 AppConfig[:omniauthCas] = {
   :provider => {
           :url                  => 'https://secure.its.yale.edu',
