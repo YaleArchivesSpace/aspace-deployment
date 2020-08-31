@@ -81,7 +81,7 @@ plugins:
     url: https://github.com/hudmol/yale_accession_slips.git
   - name: display_multiple_containers
     git: true
-    branch: "test"
+    branch: "master"
     url: https://github.com/YaleArchivesSpace/display_multiple_containers.git
   - name: omniauthCas
     git: true
