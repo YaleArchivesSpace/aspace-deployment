@@ -1,7 +1,7 @@
 plugins:
   - name: ead_export_addon
     git: true
-    branch: "prod-test-branch"
+    branch: "master"
     url: https://github.com/YaleArchivesSpace/ead_export_addon.git
   - name: pui-help
     git: true
