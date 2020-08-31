@@ -198,7 +198,7 @@ AppConfig[:aeon_fulfillment_button_position] = 0
 AppConfig[:aeon_fulfillment_record_types] = [
   "archival_object",
   "accession",
-  "top_container",
+  "top_container"
 ]
 
 AppConfig[:record_inheritance] = {
@@ -217,8 +217,8 @@ AppConfig[:record_inheritance] = {
       :inherit_directly => false
     },
     {
-      :property => "language",
-      :inherit_directly => true
+      :property => 'lang_materials',
+      :inherit_directly => false
     },
     {
       :property => "dates",
