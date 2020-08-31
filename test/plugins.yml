@@ -97,7 +97,7 @@ plugins:
     url: https://github.com/hudmol/yale_onsite_locations.git
   - name: yale_repositories
     git: true
-    branch: "v0.1"
+    branch: "v0.2"
     url: https://github.com/hudmol/yale_repositories.git
   - name: yale_pui_customizations
     git: true
