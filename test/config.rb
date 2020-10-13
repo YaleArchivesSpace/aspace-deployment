@@ -260,3 +260,14 @@ AppConfig[:omniauthCas] = {
   :logoutUrlPath      => '/cas/logout',
   :createUnknownUsers => true,
 }
+
+## Yale Accession MARC Export config
+AppConfig[:yale_accession_marc_export_schedule] = '15 * * * *' # Every 2 hours at 15 minutes past the hour
+AppConfig[:yale_accession_marc_export_location_code] = 'beints'
+AppConfig[:yale_accession_marc_export_target] = 's3'
+AppConfig[:yale_accession_marc_export_s3_client_opts] = {
+  :access_key_id => ENV.fetch('YALE_ACCESS_KEY_ID', nil),
+  :secret_access_key => ENV.fetch('YALE_SECRET_ACCESS_KEY', nil),
+  :region => 'us-west-2',
+}
+AppConfig[:yale_accession_marc_export_s3_bucket] = 'aspace-yale-test'
