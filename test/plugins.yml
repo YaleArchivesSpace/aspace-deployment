@@ -5,7 +5,7 @@ plugins:
     url: https://github.com/YaleArchivesSpace/ead_export_addon.git
   - name: pui-help
     git: true
-    branch: "master"
+    branch: "test"
     url: https://github.com/YaleArchivesSpace/pui-help.git
   - name: yale_pui_pdf
     git: true
@@ -105,7 +105,7 @@ plugins:
     url: https://github.com/hudmol/yale_repositories.git
   - name: yale_pui_customizations
     git: true
-    branch: "master"
+    branch: "test"
     url: https://github.com/YaleArchivesSpace/yale_pui_customizations.git
   - name: yale_staff_customizations
     git: true
