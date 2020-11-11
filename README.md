@@ -12,3 +12,6 @@ In `config.rb`
 1. If a setting needs to be secret (e.g., an api key for a plugin) then use an ENV
 reference, e.g., `ENV.fetch('SUPER_SECRET_SETTING', nil)`. The secret will be
 managed separately and deployed at runtime.
+
+In `plugins.yml`, include plugin metadata necessary to ensure that the right 
+version of a plugin will be fetched from the right repoository at boot time.
