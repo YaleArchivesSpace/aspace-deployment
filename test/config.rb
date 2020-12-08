@@ -272,3 +272,5 @@ AppConfig[:yale_accession_marc_export_s3_client_opts] = {
   :region => 'us-west-2',
 }
 AppConfig[:yale_accession_marc_export_s3_bucket] = 'aspace-yale-test'
+
+AppConfig[:covid_json] = "https://d2e3obn2s6o54v.cloudfront.net/banner.json"
