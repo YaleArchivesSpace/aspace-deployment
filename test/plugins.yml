@@ -105,7 +105,7 @@ plugins:
     url: https://github.com/hudmol/yale_repositories.git
   - name: yale_pui_customizations
     git: true
-    branch: "test"
+    branch: "covid-banner"
     url: https://github.com/YaleArchivesSpace/yale_pui_customizations.git
   - name: yale_staff_customizations
     git: true
