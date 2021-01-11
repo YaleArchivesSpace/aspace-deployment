@@ -53,8 +53,8 @@ plugins:
     url: https://github.com/hudmol/preservica_data_deleter.git
   - name: digitization_work_order
     git: true
-    branch: 5b6c2d9c23571e3916c9330845b1af00b6815419
-    url: https://github.com/hudmol/digitization_work_order.git
+    branch: "13056e94e2e08095eeed724f4818b330b87c3a99"
+    url: https://github.com/dl-maura/digitization_work_order.git
   - name: ArchivesSpace-Aeon-Fulfillment-Plugin
     git: true
     branch: "20201006" # Bugfix
@@ -113,5 +113,5 @@ plugins:
     url: https://github.com/YaleArchivesSpace/yale_staff_customizations.git
   - name: yale-archivesspace-reports
     git: true
-    branch: "add_report"
+    branch: "20210111100618"
     url: https://github.com/YaleArchivesSpace/yale-archivesspace-reports.git
