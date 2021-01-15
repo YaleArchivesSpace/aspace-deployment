@@ -263,7 +263,7 @@ AppConfig[:omniauthCas] = {
 }
 
 ## Yale Accession MARC Export config
-AppConfig[:yale_accession_marc_export_schedule] = '15 * * * *' # Every hour at 15 minutes past the hour
+AppConfig[:yale_accession_marc_export_schedule] = '0 5 * * *' # At 5a every day
 AppConfig[:yale_accession_marc_export_location_code] = 'beints'
 AppConfig[:yale_accession_marc_export_target] = 's3'
 AppConfig[:yale_accession_marc_export_s3_client_opts] = {
