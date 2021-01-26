@@ -53,7 +53,7 @@ plugins:
     url: https://github.com/hudmol/preservica_data_deleter.git
   - name: digitization_work_order
     git: true
-    branch: "13056e94e2e08095eeed724f4818b330b87c3a99"
+    branch: "8f0c3f079264dac531143bd2ce00f936a7f1a915"
     url: https://github.com/dl-maura/digitization_work_order.git
   - name: ArchivesSpace-Aeon-Fulfillment-Plugin
     git: true
