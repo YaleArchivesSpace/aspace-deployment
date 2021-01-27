@@ -249,7 +249,7 @@ AppConfig[:libcal_service_id] = '457'
 
 AppConfig[:omniauthCas] = {
   :provider => {
-          :url                  => 'https://secure-tst.its.yale.edu/',
+          :url                  => 'https://secure-tst.its.yale.edu',
           :login_url            => '/cas/login',
           :service_validate_url => '/cas/serviceValidate',
           :host                 => 'secure-tst.its.yale.edu',
