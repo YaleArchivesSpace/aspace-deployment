@@ -272,3 +272,6 @@ AppConfig[:yale_accession_marc_export_s3_client_opts] = {
   :region => 'us-west-2',
 }
 AppConfig[:yale_accession_marc_export_s3_bucket] = 'aspace-yale-test'
+
+# Determines whether or not all fields are exported with a CSV export, or if only the columns that display on screen are exported (false = all columns, which was the default prior to ASpace 2.7)
+AppConfig[:limit_csv_fields] = false

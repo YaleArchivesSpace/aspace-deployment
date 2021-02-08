@@ -254,3 +254,6 @@ AppConfig[:record_inheritance] = {
 #   :logoutUrlPath      => '/cas/logout',
 #   :createUnknownUsers => true,
 # }
+
+# Determines whether or not all fields are exported with a CSV export, or if only the columns that display on screen are exported (false = all columns, which was the default prior to ASpace 2.7)
+AppConfig[:limit_csv_fields] = false
