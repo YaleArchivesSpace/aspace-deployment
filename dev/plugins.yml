@@ -95,3 +95,7 @@ plugins:
     git: true
     branch: "dev"
     url: https://github.com/YaleArchivesSpace/yale-archivesspace-reports.git
+  - name: as_history
+    git: true
+    branch: "20200428"
+    url: https://github.com/hudmol/as_history.git
