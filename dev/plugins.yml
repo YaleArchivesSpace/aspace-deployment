@@ -46,7 +46,7 @@ plugins:
   - name: digitization_work_order
     git: true
     branch: "master"
-    url: https://github.com/hudmol/digitization_work_order.git
+    url: https://github.com/dl-maura/digitization_work_order.git
   - name: ArchivesSpace-Aeon-Fulfillment-Plugin
     git: true
     branch: "master"
