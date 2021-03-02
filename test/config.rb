@@ -262,16 +262,5 @@ AppConfig[:omniauthCas] = {
   :createUnknownUsers => true,
 }
 
-## Yale Accession MARC Export config
-AppConfig[:yale_accession_marc_export_schedule] = '0 5 * * *' # At 5a every day
-AppConfig[:yale_accession_marc_export_location_code] = 'beints'
-AppConfig[:yale_accession_marc_export_target] = 's3'
-AppConfig[:yale_accession_marc_export_s3_client_opts] = {
-  :access_key_id => ENV.fetch('YALE_ACCESS_KEY_ID', nil),
-  :secret_access_key => ENV.fetch('YALE_SECRET_ACCESS_KEY', nil),
-  :region => 'us-west-2',
-}
-AppConfig[:yale_accession_marc_export_s3_bucket] = 'aspace-yale-test'
-
 # Determines whether or not all fields are exported with a CSV export, or if only the columns that display on screen are exported (false = all columns, which was the default prior to ASpace 2.7)
 AppConfig[:limit_csv_fields] = false
