@@ -57,7 +57,7 @@ plugins:
     url: https://github.com/YaleArchivesSpace/ArchivesSpace-Aeon-Fulfillment-Plugin.git
   - name: yale_aeon_mappings
     git: true
-    branch: "master"
+    branch: "8db3eba2292b7a4caff34246a7e4e2c118ac0c7f"
     url: https://github.com/YaleArchivesSpace/yale_aeon_mappings.git
   - name: in_a_rush
     git: true
