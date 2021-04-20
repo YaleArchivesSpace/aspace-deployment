@@ -105,5 +105,5 @@ plugins:
     url: https://github.com/YaleArchivesSpace/yale_staff_customizations.git
   - name: yale-archivesspace-reports
     git: true
-    branch: "v1.5.0"
+    branch: "v1.5.1"
     url: https://github.com/YaleArchivesSpace/yale-archivesspace-reports.git
