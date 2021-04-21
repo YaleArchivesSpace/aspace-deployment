@@ -75,10 +75,10 @@ plugins:
     git: true
     branch: "master"
     url: https://github.com/YaleArchivesSpace/display_multiple_containers.git
-  - name: omniauthCas
-    git: true
-    branch: "master"
-    url: https://github.com/YaleArchivesSpace/aspace-omniauth-cas.git
+#  - name: omniauthCas
+#    git: true
+#    branch: "master"
+#    url: https://github.com/YaleArchivesSpace/aspace-omniauth-cas.git
   - name: archivesspace_delete_button_context_plugin
     git: true
     branch: "master"
@@ -99,3 +99,7 @@ plugins:
     git: true
     branch: "21.1.0"
     url: https://gitlab.gaiaresources.com.au/qsa/as_history.git
+  - name: lcnaf
+    git: true
+    branch: "ANW-429_updates"
+    url: https://github.com/archivesspace-plugins/lcnaf.git
