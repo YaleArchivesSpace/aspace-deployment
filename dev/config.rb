@@ -240,20 +240,20 @@ AppConfig[:record_inheritance] = {
   }
 }
 
-# AppConfig[:omniauthCas] = {
-#   :provider => {
-#           :url                  => 'https://secure.its.yale.edu',
-#           :login_url            => '/cas/login',
-#           :service_validate_url => '/cas/serviceValidate',
-#           :host                 => 'secure.its.yale.edu',
-#           :ssl                  => true,
-#   },
-#   :frontendUidProc    => lambda { |hash| hash['uid'] },
-#   :backendUidProc     => lambda { |hash| hash['user'] },
-#   :backendEmailProc   => lambda { |hash| '' },
-#   :logoutUrlPath      => '/cas/logout',
-#   :createUnknownUsers => true,
-# }
+AppConfig[:omniauthCas] = {
+  :provider => {
+          :url                  => 'https://secure.its.yale.edu',
+          :login_url            => '/cas/login',
+          :service_validate_url => '/cas/serviceValidate',
+          :host                 => 'secure.its.yale.edu',
+          :ssl                  => true,
+  },
+  :frontendUidProc    => lambda { |hash| hash['uid'] },
+  :backendUidProc     => lambda { |hash| hash['user'] },
+  :backendEmailProc   => lambda { |hash| '' },
+  :logoutUrlPath      => '/cas/logout',
+  :createUnknownUsers => true,
+}
 
 # Determines whether or not all fields are exported with a CSV export, or if only the columns that display on screen are exported (false = all columns, which was the default prior to ASpace 2.7)
 AppConfig[:limit_csv_fields] = false
