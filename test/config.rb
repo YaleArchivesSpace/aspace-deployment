@@ -264,3 +264,7 @@ AppConfig[:omniauthCas] = {
 
 # Determines whether or not all fields are exported with a CSV export, or if only the columns that display on screen are exported (false = all columns, which was the default prior to ASpace 2.7)
 AppConfig[:limit_csv_fields] = false
+
+AppConfig[:iiif_viewer_url] = "https://collections.library.yale.edu/uv/uv.html#?manifest="
+
+AppConfig[:search_csv_extra_nested_records] = ['payment_summary', 'payments']
