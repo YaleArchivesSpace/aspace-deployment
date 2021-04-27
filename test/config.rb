@@ -74,7 +74,7 @@ AppConfig[:pui_repos] = {
 
 AppConfig[:aeon_fulfillment] = {
   "arts" => {
-    :aeon_web_url => "https://aeon-test-mssa.library.yale.edu/aeon.dll",
+    :aeon_web_url => "https://aeon-test-mssa.library.yale.edu/Dev_NewWeb/aeon.dll",
     :aeon_return_link_label => "Return to Archives at Yale",
     :aeon_external_system_id => "ArchivesSpace",
     :request_in_new_tab => true,
@@ -86,7 +86,7 @@ AppConfig[:aeon_fulfillment] = {
     :aeon_site_code => "ART"
   },
   "brbl" => {
-    :aeon_web_url => "https://aeon-test-brbl.library.yale.edu/aeon.dll",
+    :aeon_web_url => "https://aeon-test-brbl.library.yale.edu/Dev_NewWeb/aeon.dll",
     :aeon_return_link_label => "Return to Archives at Yale",
     :aeon_external_system_id => "ArchivesSpace",
     :request_in_new_tab => true,
@@ -98,7 +98,7 @@ AppConfig[:aeon_fulfillment] = {
     :aeon_site_code => "BRBL"
   },
   "mssa" => {
-    :aeon_web_url => "https://aeon-test-mssa.library.yale.edu/aeon.dll",
+    :aeon_web_url => "https://aeon-test-mssa.library.yale.edu/Dev_NewWeb/aeon.dll",
     :aeon_return_link_label => "Return to Archives at Yale",
     :aeon_external_system_id => "ArchivesSpace",
     :request_in_new_tab => true,
@@ -116,7 +116,7 @@ AppConfig[:aeon_fulfillment] = {
     :aeon_site_code => "MSS"
   },
   "music" => {
-    :aeon_web_url => "https://aeon-test-mssa.library.yale.edu/aeon.dll",
+    :aeon_web_url => "https://aeon-test-mssa.library.yale.edu/Dev_NewWeb/aeon.dll",
     :aeon_return_link_label => "Return to Archives at Yale",
     :aeon_external_system_id => "ArchivesSpace",
     :request_in_new_tab => true,
@@ -128,7 +128,7 @@ AppConfig[:aeon_fulfillment] = {
     :aeon_site_code => "MUS"
   },
   "walpole" => {
-    :aeon_web_url => "https://aeon-test-mssa.library.yale.edu/aeon.dll",
+    :aeon_web_url => "https://aeon-test-mssa.library.yale.edu/Dev_NewWeb/aeon.dll",
     :aeon_return_link_label => "Return to Archives at Yale",
     :aeon_external_system_id => "ArchivesSpace",
     :request_in_new_tab => true,
@@ -140,7 +140,7 @@ AppConfig[:aeon_fulfillment] = {
     :aeon_site_code => "LWL"
   },
   "divinity" => {
-    :aeon_web_url => "https://aeon-test-mssa.library.yale.edu/aeon.dll",
+    :aeon_web_url => "https://aeon-test-mssa.library.yale.edu/Dev_NewWeb/aeon.dll",
     :aeon_return_link_label => "Return to Archives at Yale",
     :aeon_external_system_id => "ArchivesSpace",
     :request_in_new_tab => true,
@@ -152,7 +152,7 @@ AppConfig[:aeon_fulfillment] = {
     :aeon_site_code => "DIVY"
   },
   "medical" => {
-    :aeon_web_url => "https://aeon-test-mssa.library.yale.edu/aeon.dll",
+    :aeon_web_url => "https://aeon-test-mssa.library.yale.edu/Dev_NewWeb/aeon.dll",
     :aeon_return_link_label => "Return to Archives at Yale",
     :aeon_external_system_id => "ArchivesSpace",
     :request_in_new_tab => true,
@@ -164,7 +164,7 @@ AppConfig[:aeon_fulfillment] = {
     :aeon_site_code => "MHL"
   },
   "ycba-ia" => {
-    :aeon_web_url => "https://aeon-test-mssa.library.yale.edu/aeon.dll",
+    :aeon_web_url => "https://aeon-test-mssa.library.yale.edu/Dev_NewWeb/aeon.dll",
     :aeon_return_link_label => "Return to Archives at Yale",
     :aeon_external_system_id => "ArchivesSpace",
     :request_in_new_tab => true,
@@ -176,7 +176,7 @@ AppConfig[:aeon_fulfillment] = {
     :aeon_site_code => 'YCBA'
   },
   "ycba-rbm" => {
-    :aeon_web_url => "https://aeon-test-mssa.library.yale.edu/aeon.dll",
+    :aeon_web_url => "https://aeon-test-mssa.library.yale.edu/Dev_NewWeb/aeon.dll",
     :aeon_return_link_label => "Return to Archives at Yale",
     :aeon_external_system_id => "ArchivesSpace",
     :request_in_new_tab => true,
