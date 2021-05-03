@@ -10,7 +10,7 @@ AppConfig[:container_management_barcode_length] = {
   }
 }
 
-#new (so far requried) setting to adjust how a few plugins are set up so that we won't always have to maintain separate branches
+#new (so far required) setting to adjust how a few plugins are set up so that we won't always have to maintain separate branches
 AppConfig[:environment] = 'PROD'
 
 #something is overriding this now in our instances. if we re-add it here, will it work?
