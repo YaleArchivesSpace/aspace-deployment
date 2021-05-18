@@ -268,3 +268,5 @@ AppConfig[:limit_csv_fields] = false
 AppConfig[:iiif_viewer_url] = "https://collections.library.yale.edu/uv/uv.html#?manifest="
 
 AppConfig[:search_csv_extra_nested_records] = ['payment_summary', 'payments']
+
+AppConfig[:search_csv_max_nested_records] = 20
