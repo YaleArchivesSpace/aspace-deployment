@@ -45,8 +45,8 @@ plugins:
     url: https://github.com/hudmol/user_defined_in_basic.git
   - name: digitization_work_order
     git: true
-    branch: v1.10
-    url: https://github.com/hudmol/digitization_work_order.git
+    branch: "yale-specifics"
+    url: https://github.com/YaleArchivesSpace/digitization_work_order
   - name: ArchivesSpace-Aeon-Fulfillment-Plugin
     git: true
     branch: "master"
