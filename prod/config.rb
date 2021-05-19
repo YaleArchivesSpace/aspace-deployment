@@ -22,7 +22,7 @@ AppConfig[:container_management_extent_calculator] = {
   :decimal_places => 2
 }
 
-AppConfig[:digitization_work_order_ladybird]   = true
+AppConfig[:digitization_work_order_goobi]      = true
 AppConfig[:max_top_container_results]          = 2500
 #AppConfig[:preservica_data_deleter_match_url]  = "https://preservica.library.yale.edu"
 #AppConfig[:preservica_data_deleter_match_user] = "preservicaprod"
