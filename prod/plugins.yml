@@ -46,7 +46,7 @@ plugins:
   - name: digitization_work_order
     git: true
     branch: "yale-specifics"
-    url: https://github.com/YaleArchivesSpace/digitization_work_order
+    url: https://github.com/YaleArchivesSpace/digitization_work_order.git
   - name: ArchivesSpace-Aeon-Fulfillment-Plugin
     git: true
     branch: "master"
