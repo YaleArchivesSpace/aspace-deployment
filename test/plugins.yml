@@ -105,8 +105,8 @@ plugins:
     url: https://github.com/YaleArchivesSpace/yale_pui_customizations.git
   - name: yale_staff_customizations
     git: true
-    branch: "20210413164622"
-    url: https://github.com/YaleArchivesSpace/yale_staff_customizations.git
+    branch: "breadcrumbs"
+    url: https://github.com/bobbi-SMR/yale_staff_customizations.git
   - name: yale-archivesspace-reports
     git: true
     branch: "202103231847"
