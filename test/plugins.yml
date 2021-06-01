@@ -5,7 +5,7 @@ plugins:
     url: https://github.com/YaleArchivesSpace/ead_export_addon.git
   - name: pui-help
     git: true
-    branch: "test"
+    branch: "20210601164333"
     url: https://github.com/YaleArchivesSpace/pui-help.git
   - name: yale_pui_pdf
     git: true
