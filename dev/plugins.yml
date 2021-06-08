@@ -101,5 +101,5 @@ plugins:
     url: https://gitlab.gaiaresources.com.au/qsa/as_history.git
   - name: lcnaf
     git: true
-    branch: "ANW-429_updates"
+    branch: 'v2.0.0'
     url: https://github.com/archivesspace-plugins/lcnaf.git
