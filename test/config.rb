@@ -270,3 +270,53 @@ AppConfig[:iiif_viewer_url] = "https://collections.library.yale.edu/uv/uv.html#?
 AppConfig[:search_csv_extra_nested_records] = ['payment_summary', 'payments']
 
 AppConfig[:search_csv_max_nested_records] = 20
+
+AppConfig[:container_management_labels] = [
+    {"institution_name" => {
+        "checked" => true,
+        "disabled" => false}},
+    {"repository_name" => {
+        "checked" => true,
+        "disabled" => false}},
+    {"resource_id" => {
+        "checked" => true,
+        "disabled" => false}},
+    {"resource_title" => {
+        "checked" => true,
+        "disabled" => false}},
+    {"agent_name" => {
+        "checked" => true,
+        "disabled" => false}},
+    {"series_id" => {
+        "checked" => false,
+        "disabled" => false}},
+    {"type" => {
+        "checked" => false,
+        "disabled" => false}},
+    {"indicator" => {
+        "checked" => true,
+        "disabled" => true}},
+    {"barcode" => {
+        "checked" => false,
+        "disabled" => false}},
+    {"location" => {
+        "checked" => false,
+        "disabled" => false}},
+    {"location_barcode" => {
+        "checked" => false,
+        "disabled" => false}}
+]
+
+AppConfig[:container_management_labels_pagesize] = {
+    "dymo-30256" => {
+        "size" => "59mm 102mm",
+        "margin" => "5mm 1mm 5mm 1mm"},
+    "avery-5163" => {
+        "size" => "letter",
+        "margin" => "0.5in 0.125in"}
+}
+
+AppConfig[:container_management_labels_autoscale] = {
+  "checked" => true,
+  "disabled" => false
+}
