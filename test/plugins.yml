@@ -107,3 +107,7 @@ plugins:
     git: true
     branch: "202103231847"
     url: https://github.com/YaleArchivesSpace/yale-archivesspace-reports.git
+  - name: container_management_labels
+    git: true
+    branch: "yale_customization"
+    url: https://github.com/bobbi-SMR/container_management_labels.git
