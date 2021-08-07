@@ -72,6 +72,10 @@ AppConfig[:pui_repos] = {
   },
 }
 
+# remove after testing wraps up.
+AppConfig[:aeon_fulfillment_debug] = true
+
+# new "requests_permitted_for_digital_object_instances" parameter added for some repositories, not all, to test.
 AppConfig[:aeon_fulfillment] = {
   "arts" => {
     :aeon_web_url => "https://aeon-test-mssa.library.yale.edu/aeon.dll",
@@ -83,6 +87,7 @@ AppConfig[:aeon_fulfillment] = {
     :hide_button_for_accessions => true,
     :document_type_map => {:default => 'Manuscript'},
     :web_request_form_map => {:default => 'GenericRequestManuscript'},
+    :requests_permitted_for_digital_object_instances => true,
     :aeon_site_code => "ART"
   },
   "brbl" => {
@@ -95,6 +100,7 @@ AppConfig[:aeon_fulfillment] = {
     :hide_button_for_accessions => false,
     :document_type_map => {:default => 'BRBL'},
     :web_request_form_map => {:default => 'GenericRequestORBIS'},
+    :requests_permitted_for_digital_object_instances => true,
     :aeon_site_code => "BRBL"
   },
   "mssa" => {
@@ -113,6 +119,7 @@ AppConfig[:aeon_fulfillment] = {
       :default => 'GenericRequestManuscript',
       'RU' => 'GenericRequestArchive',
     },
+    :requests_permitted_for_digital_object_instances => true,
     :aeon_site_code => "MSS"
   },
   "music" => {
@@ -125,6 +132,7 @@ AppConfig[:aeon_fulfillment] = {
     :hide_button_for_accessions => true,
     :document_type_map => {:default => 'Manuscript'},
     :web_request_form_map => {:default => 'GenericRequestManuscript'},
+    :requests_permitted_for_digital_object_instances => true,
     :aeon_site_code => "MUS"
   },
   "walpole" => {
@@ -149,6 +157,7 @@ AppConfig[:aeon_fulfillment] = {
     :hide_button_for_accessions => true,
     :document_type_map => {:default => 'Manuscript'},
     :web_request_form_map => {:default => 'GenericRequestManuscript'},
+    :requests_permitted_for_digital_object_instances => true,
     :aeon_site_code => "DIVY"
   },
   "medical" => {
@@ -161,6 +170,7 @@ AppConfig[:aeon_fulfillment] = {
     :hide_button_for_accessions => true,
     :document_type_map => {:default => 'Manuscript'},
     :web_request_form_map => {:default => 'GenericRequestManuscript'},
+    :requests_permitted_for_digital_object_instances => true,
     :aeon_site_code => "MHL"
   },
   "ycba-ia" => {
@@ -185,6 +195,7 @@ AppConfig[:aeon_fulfillment] = {
     :hide_button_for_accessions => true,
     :document_type_map => {:default => 'Manuscript'},
     :web_request_form_map => {:default => 'GenericRequestManuscript'},
+    :requests_permitted_for_digital_object_instances => true,
     :aeon_site_code => 'YCBA'
   },
   "peabody" => {

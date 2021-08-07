@@ -47,14 +47,10 @@ plugins:
     git: true
     branch: "master"
     url: https://github.com/dl-maura/digitization_work_order.git
-  - name: ArchivesSpace-Aeon-Fulfillment-Plugin
+  - name: yale_as_requests
     git: true
-    branch: "20201006" # Bugfix
-    url: https://github.com/YaleArchivesSpace/ArchivesSpace-Aeon-Fulfillment-Plugin.git
-  - name: yale_aeon_mappings
-    git: true
-    branch: "0.8b"
-    url: https://github.com/YaleArchivesSpace/yale_aeon_mappings.git
+    branch: "master"
+    url: https://github.com/hudmol/yale_as_requests.git
   - name: in_a_rush
     git: true
     branch: "master"
@@ -65,7 +61,7 @@ plugins:
     url: https://github.com/hudmol/child_publisher.git
   - name: yale_marcxml_export_plugin
     git: true
-    branch: "master"
+    branch: "test"
     url: https://github.com/YaleArchivesSpace/yale_marcxml_export_plugin.git
   - name: yale_series_titles
     git: true
