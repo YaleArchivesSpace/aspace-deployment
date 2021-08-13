@@ -315,6 +315,9 @@ AppConfig[:container_management_labels] = [
         "disabled" => false}},
     {"location_barcode" => {
         "checked" => false,
+        "disabled" => false}},
+    {"series_display" => {
+        "checked" => false,
         "disabled" => false}}
 ]
 
