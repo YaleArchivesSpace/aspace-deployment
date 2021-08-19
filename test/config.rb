@@ -313,10 +313,10 @@ AppConfig[:container_management_labels] = [
     {"location" => {
         "checked" => false,
         "disabled" => false}},
-    {"location_barcode" => {
+    {"series_display" => {
         "checked" => false,
         "disabled" => false}},
-    {"series_display" => {
+    {"location_barcode" => {
         "checked" => false,
         "disabled" => false}}
 ]
