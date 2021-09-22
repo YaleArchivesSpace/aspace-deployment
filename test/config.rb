@@ -87,7 +87,7 @@ AppConfig[:aeon_fulfillment] = {
     :hide_button_for_accessions => true,
     :document_type_map => {:default => 'Manuscript'},
     :web_request_form_map => {:default => 'GenericRequestManuscript'},
-    :requests_permitted_for_digital_object_instances => true,
+    :requests_permitted_for_born_digital => true,
     :aeon_site_code => "ART"
   },
   "brbl" => {
@@ -100,7 +100,7 @@ AppConfig[:aeon_fulfillment] = {
     :hide_button_for_accessions => false,
     :document_type_map => {:default => 'BRBL'},
     :web_request_form_map => {:default => 'GenericRequestORBIS'},
-    :requests_permitted_for_digital_object_instances => true,
+    :requests_permitted_for_born_digital => true,
     :aeon_site_code => "BRBL"
   },
   "mssa" => {
@@ -119,7 +119,7 @@ AppConfig[:aeon_fulfillment] = {
       :default => 'GenericRequestManuscript',
       'RU' => 'GenericRequestArchive',
     },
-    :requests_permitted_for_digital_object_instances => true,
+    :requests_permitted_for_born_digital => true,
     :aeon_site_code => "MSS"
   },
   "music" => {
@@ -132,7 +132,7 @@ AppConfig[:aeon_fulfillment] = {
     :hide_button_for_accessions => true,
     :document_type_map => {:default => 'Manuscript'},
     :web_request_form_map => {:default => 'GenericRequestManuscript'},
-    :requests_permitted_for_digital_object_instances => true,
+    :requests_permitted_for_born_digital => true,
     :aeon_site_code => "MUS"
   },
   "walpole" => {
@@ -157,7 +157,7 @@ AppConfig[:aeon_fulfillment] = {
     :hide_button_for_accessions => true,
     :document_type_map => {:default => 'Manuscript'},
     :web_request_form_map => {:default => 'GenericRequestManuscript'},
-    :requests_permitted_for_digital_object_instances => true,
+    :requests_permitted_for_born_digital => true,
     :aeon_site_code => "DIVY"
   },
   "medical" => {
@@ -170,7 +170,7 @@ AppConfig[:aeon_fulfillment] = {
     :hide_button_for_accessions => true,
     :document_type_map => {:default => 'Manuscript'},
     :web_request_form_map => {:default => 'GenericRequestManuscript'},
-    :requests_permitted_for_digital_object_instances => true,
+    :requests_permitted_for_born_digital => true,
     :aeon_site_code => "MHL"
   },
   "ycba-ia" => {
@@ -195,7 +195,9 @@ AppConfig[:aeon_fulfillment] = {
     :hide_button_for_accessions => true,
     :document_type_map => {:default => 'Manuscript'},
     :web_request_form_map => {:default => 'GenericRequestManuscript'},
-    :requests_permitted_for_digital_object_instances => true,
+    :requests_permitted_for_born_digital => true,
+    :disable_digital_copy_request_for_access_restriction_types => ['InProcessSpecColl'],
+    :disable_reading_room_request_for_access_restriction_types => ['UseSurrogate'],
     :aeon_site_code => 'YCBA'
   },
   "peabody" => {
@@ -205,7 +207,6 @@ AppConfig[:aeon_fulfillment] = {
     :hide_request_button => true
   }
 }
-
 AppConfig[:aeon_fulfillment_button_position] = 0
 AppConfig[:aeon_fulfillment_record_types] = [
   "archival_object",
