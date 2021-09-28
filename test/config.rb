@@ -300,6 +300,9 @@ AppConfig[:container_management_labels] = [
     {"series_id" => {
         "checked" => false,
         "disabled" => false}},
+    {"series_display" => {
+        "checked" => false,
+        "disabled" => false}},
     {"resource_id" => {
         "checked" => true,
         "disabled" => false}},
@@ -318,13 +321,13 @@ AppConfig[:container_management_labels] = [
     {"location" => {
         "checked" => false,
         "disabled" => false}},
-    {"series_display" => {
-        "checked" => false,
-        "disabled" => false}},
     {"location_barcode" => {
         "checked" => false,
         "disabled" => false}}
 ]
+
+AppConfig[:container_management_labels_csv] = true
+
 AppConfig[:container_management_labels_pagesize] = {
     "dymo-30256" => {
         "size" => "59mm 102mm",
