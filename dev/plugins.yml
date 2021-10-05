@@ -45,8 +45,8 @@ plugins:
     url: https://github.com/hudmol/preservica_data_deleter.git
   - name: digitization_work_order
     git: true
-    branch: "master"
-    url: https://github.com/dl-maura/digitization_work_order.git
+    branch: "v1.11.y-test"
+    url: https://github.com/YaleArchivesSpace/digitization_work_order.git
   - name: ArchivesSpace-Aeon-Fulfillment-Plugin
     git: true
     branch: "master"
@@ -95,10 +95,6 @@ plugins:
     git: true
     branch: "dev"
     url: https://github.com/YaleArchivesSpace/yale-archivesspace-reports.git
-  - name: as_history
-    git: true
-    branch: "21.1.0"
-    url: https://gitlab.gaiaresources.com.au/qsa/as_history.git
   - name: lcnaf
     git: true
     branch: 'v2.0.0'
