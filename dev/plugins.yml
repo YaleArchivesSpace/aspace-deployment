@@ -103,3 +103,7 @@ plugins:
     git: true
     branch: 'v2.0.0'
     url: https://github.com/archivesspace-plugins/lcnaf.git
+  - name: snac_aspace_plugin
+    git: true
+    branch: "master"
+    url: https://github.com/snac-cooperative/snac_aspace_plugin.git
