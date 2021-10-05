@@ -327,7 +327,8 @@ AppConfig[:container_management_labels] = [
 ]
 
 AppConfig[:container_management_labels_csv] = true
-
+AppConfig[:container_management_labels_delim] = ', '
+AppConfig[:container_management_labels_series] = 'Series '
 AppConfig[:container_management_labels_pagesize] = {
     "dymo-30256" => {
         "size" => "59mm 102mm",
