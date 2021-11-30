@@ -35,6 +35,8 @@ AppConfig[:user_defined_in_basic] = {
   "hide_user_defined_section" => false
 }
 
+# Search results paging
+AppConfig[:default_page_size] = 10
 
 AppConfig[:pui_branding_img] = ''
 AppConfig[:pui_block_referrer]         = true
