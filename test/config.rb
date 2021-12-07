@@ -216,6 +216,9 @@ AppConfig[:aeon_fulfillment_record_types] = [
   "top_container"
 ]
 
+AppConfig[:aeon_client_username] = 's_lib_t_aeon_hm'
+AppConfig[:aeon_client_password] = ENV.fetch('AEON_CLIENT_PASSWORD', nil)
+
 AppConfig[:record_inheritance] = {
   :archival_object => {
     :composite_identifiers => {
