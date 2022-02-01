@@ -216,7 +216,7 @@ AppConfig[:aeon_fulfillment_record_types] = [
   "top_container"
 ]
 
-AppConfig[:aeon_client_max_results] = 2000
+AppConfig[:aeon_client_max_results] = 5000
 AppConfig[:aeon_client_username] = 's_lib_t_aeon_hm'
 AppConfig[:aeon_client_password] = ENV.fetch('AEON_CLIENT_PASSWORD', nil)
 AppConfig[:aeon_client_repo_codes] = [
