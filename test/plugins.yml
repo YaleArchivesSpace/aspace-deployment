@@ -109,5 +109,5 @@ plugins:
     url: https://github.com/YaleArchivesSpace/yale-archivesspace-reports.git
   - name: container_management_labels
     git: true
-    branch: "dartmouth_merge"
-    url: https://github.com/bobbi-SMR/container_management_labels.git
+    branch: "yale_styles"
+    url: https://github.com/triplingual/container_management_labels.git
