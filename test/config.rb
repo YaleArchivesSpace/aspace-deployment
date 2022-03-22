@@ -311,22 +311,12 @@ AppConfig[:omniauthCas] = {
   :createUnknownUsers => true,
 }
 
-## Yale Accession MARC Export config
-AppConfig[:yale_accession_marc_export_schedule] = '15 0 * * *' # At 5a every day
-AppConfig[:yale_accession_marc_export_location_code] = 'beints'
-AppConfig[:yale_accession_marc_export_target] = 's3'
-AppConfig[:yale_accession_marc_export_s3_client_opts] = {
-  :access_key_id => ENV.fetch('YALE_ACCESS_KEY_ID', nil),
-  :secret_access_key => ENV.fetch('YALE_SECRET_ACCESS_KEY', nil),
-  :region => 'us-west-2',
-}
-AppConfig[:yale_accession_marc_export_s3_bucket] = 'aspace-yale-test'
-
 # Determines whether or not all fields are exported with a CSV export, or if only the columns that display on screen are exported (false = all columns, which was the default prior to ASpace 2.7)
 AppConfig[:limit_csv_fields] = false
 
+# NB: No dedicated test instance viewer for YCBA at this time (22 March 2022)
 AppConfig[:iiif_viewer_url] = {
-    :default => 'https://collections.library.yale.edu/uv/uv.html#?manifest=',
+    :default => 'https://collections-uat.library.yale.edu/uv/uv.html#?manifest=',
     'YCBA-RBM' => 'https://view.collections.yale.edu/m3/?manifest=',
     'YCBA-IA' => 'https://view.collections.yale.edu/m3/?manifest='
 }
@@ -346,19 +336,19 @@ AppConfig[:container_management_labels] = [
         "checked" => true,
         "disabled" => false}},
     {"series_id" => {
-        "checked" => false,
+        "checked" => true,
         "disabled" => false}},
     {"series_display" => {
-        "checked" => false,
+        "checked" => true,
         "disabled" => false}},
     {"resource_id" => {
-        "checked" => true,
+        "checked" => false,
         "disabled" => false}},
     {"agent_name" => {
-        "checked" => true,
+        "checked" => false,
         "disabled" => false}},
     {"type" => {
-        "checked" => false,
+        "checked" => true,
         "disabled" => false}},
     {"indicator" => {
         "checked" => true,
