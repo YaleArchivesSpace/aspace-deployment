@@ -1,11 +1,11 @@
 plugins:
-  - name: ead_export_addon
+  - name: lcnaf
     git: true
-    branch: "master"
-    url: https://github.com/YaleArchivesSpace/ead_export_addon.git
+    branch: "v1.0.0"
+    url: https://github.com/archivesspace-plugins/lcnaf.git
   - name: pui-help
     git: true
-    branch: "master"
+    branch: "1.2"
     url: https://github.com/YaleArchivesSpace/pui-help.git
   - name: yale_pui_pdf
     git: true
@@ -26,7 +26,7 @@ plugins:
   - name: extended_advanced_search
     git: true
     branch: "master"
-    url: https://github.com/hudmol/extended_advanced_search.git
+    url: https://github.com/YaleArchivesSpace/extended_advanced_search.git
   - name: aspace_yale_accessions
     git: true
     branch: "1.1"
@@ -45,16 +45,16 @@ plugins:
     url: https://github.com/hudmol/user_defined_in_basic.git
   - name: digitization_work_order
     git: true
-    branch: v1.10
-    url: https://github.com/hudmol/digitization_work_order.git
-  - name: ArchivesSpace-Aeon-Fulfillment-Plugin
+    branch: "v1.11.y"
+    url: https://github.com/YaleArchivesSpace/digitization_work_order.git
+  - name: yale_as_requests
     git: true
     branch: "master"
-    url: https://github.com/YaleArchivesSpace/ArchivesSpace-Aeon-Fulfillment-Plugin.git
-  - name: yale_aeon_mappings
+    url: https://github.com/hudmol/yale_as_requests.git
+  - name: in_a_rush
     git: true
     branch: "master"
-    url: https://github.com/YaleArchivesSpace/yale_aeon_mappings.git
+    url: https://github.com/marktriggs/in_a_rush.git
   - name: child_publisher
     git: true
     branch: "0.6"
@@ -89,17 +89,21 @@ plugins:
     url: https://github.com/hudmol/yale_onsite_locations.git
   - name: yale_repositories
     git: true
-    branch: "v0.1"
+    branch: "v0.2"
     url: https://github.com/hudmol/yale_repositories.git
   - name: yale_pui_customizations
     git: true
-    branch: "master"
+    branch: "1.5.0"
     url: https://github.com/YaleArchivesSpace/yale_pui_customizations.git
   - name: yale_staff_customizations
     git: true
-    branch: "master"
+    branch: "v2.0.0"
     url: https://github.com/YaleArchivesSpace/yale_staff_customizations.git
   - name: yale-archivesspace-reports
     git: true
-    branch: "master"
+    branch: "v1.5.1"
     url: https://github.com/YaleArchivesSpace/yale-archivesspace-reports.git
+  - name: container_management_labels
+    git: true
+    branch: "yale_styles"
+    url: https://github.com/triplingual/container_management_labels.git
