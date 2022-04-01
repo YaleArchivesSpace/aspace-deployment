@@ -3,10 +3,6 @@ plugins:
     git: true
     branch: "v1.0.0"
     url: https://github.com/archivesspace-plugins/lcnaf.git
-  - name: ead_export_addon
-    git: true
-    branch: "master"
-    url: https://github.com/YaleArchivesSpace/ead_export_addon.git
   - name: pui-help
     git: true
     branch: "1.2"
@@ -51,14 +47,10 @@ plugins:
     git: true
     branch: "v1.11.y"
     url: https://github.com/YaleArchivesSpace/digitization_work_order.git
-  - name: ArchivesSpace-Aeon-Fulfillment-Plugin
+  - name: yale_as_requests
     git: true
-    branch: "master"
-    url: https://github.com/YaleArchivesSpace/ArchivesSpace-Aeon-Fulfillment-Plugin.git
-  - name: yale_aeon_mappings
-    git: true
-    branch: "master"
-    url: https://github.com/YaleArchivesSpace/yale_aeon_mappings.git
+    branch: "v2.3.7"
+    url: https://github.com/hudmol/yale_as_requests.git
   - name: in_a_rush
     git: true
     branch: "master"
@@ -101,13 +93,17 @@ plugins:
     url: https://github.com/hudmol/yale_repositories.git
   - name: yale_pui_customizations
     git: true
-    branch: "1.4.1"
+    branch: "1.5.0"
     url: https://github.com/YaleArchivesSpace/yale_pui_customizations.git
   - name: yale_staff_customizations
     git: true
-    branch: "3aa4830f59644117dc5f9c8bfe5a49494e2402e5"
+    branch: "v2.0.0"
     url: https://github.com/YaleArchivesSpace/yale_staff_customizations.git
   - name: yale-archivesspace-reports
     git: true
     branch: "v1.5.1"
     url: https://github.com/YaleArchivesSpace/yale-archivesspace-reports.git
+  - name: container_management_labels
+    git: true
+    branch: "yale_styles"
+    url: https://github.com/triplingual/container_management_labels.git
