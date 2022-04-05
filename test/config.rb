@@ -99,7 +99,7 @@ AppConfig[:aeon_fulfillment] = {
     :request_in_new_tab => true,
     :requests_permitted_for_containers_only => true,
     :hide_button_for_access_restriction_types => ['NoRequest'],
-    :hide_button_for_accessions => false,
+    :hide_button_for_accessions => true,
     :document_type_map => {:default => 'BRBL'},
     :web_request_form_map => {:default => 'GenericRequestORBIS'},
     :requests_permitted_for_born_digital => true,

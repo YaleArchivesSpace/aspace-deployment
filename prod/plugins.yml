@@ -9,11 +9,11 @@ plugins:
     url: https://github.com/YaleArchivesSpace/pui-help.git
   - name: yale_pui_pdf
     git: true
-    branch: "master"
+    branch: "b39f916"
     url: https://github.com/YaleArchivesSpace/yale_pui_pdf.git
   - name: yale_pui_hashtag
     git: true
-    branch: "master"
+    branch: "v1.0.0"
     url: https://github.com/YaleArchivesSpace/yale_pui_hashtag.git
   - name: yale_pui_ask_a_question
     git: true
