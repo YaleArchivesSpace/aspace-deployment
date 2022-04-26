@@ -41,8 +41,8 @@ plugins:
     url: https://github.com/hudmol/payments_module.git
   - name: yale_accession_marc_export # Placing immediately after related plugin
     git: true
-    branch: "0.5"
-    url: https://github.com/hudmol/yale_accession_marc_export.git
+    branch: "0.5.1-test"
+    url: https://github.com/YaleArchivesSpace/yale_accession_marc_export.git
   - name: user_defined_in_basic
     git: true
     branch: "0.6"
