@@ -9,7 +9,7 @@ plugins:
     url: https://github.com/YaleArchivesSpace/pui-help.git
   - name: yale_pui_pdf
     git: true
-    branch: "b39f916"
+    branch: "v1.0.0"
     url: https://github.com/YaleArchivesSpace/yale_pui_pdf.git
   - name: yale_pui_hashtag
     git: true
@@ -17,11 +17,11 @@ plugins:
     url: https://github.com/YaleArchivesSpace/yale_pui_hashtag.git
   - name: yale_pui_ask_a_question
     git: true
-    branch: "master"
+    branch: "v1.0.0"
     url: https://github.com/YaleArchivesSpace/yale_pui_ask_a_question.git
   - name: aspace_yale_pui
     git: true
-    branch: "master"
+    branch: "v1.0.0"
     url: https://github.com/YaleArchivesSpace/aspace_yale_pui.git
   - name: extended_advanced_search
     git: true
