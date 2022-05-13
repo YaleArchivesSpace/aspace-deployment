@@ -135,7 +135,7 @@ AppConfig[:aeon_fulfillment] = {
     :document_type_map => {:default => 'Manuscript'},
     :web_request_form_map => {:default => 'GenericRequestManuscript'},
     :requests_permitted_for_born_digital => true,
-    :aeon_site_code => "MUS"
+    :aeon_site_code => "MSS"
   },
   "walpole" => {
     :aeon_web_url => "https://aeon-test-mssa.library.yale.edu/aeon.dll",
