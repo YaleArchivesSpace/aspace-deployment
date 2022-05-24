@@ -312,7 +312,7 @@ AppConfig[:omniauthCas] = {
 }
 
 ## Yale Accession MARC Export config
-AppConfig[:yale_accession_marc_export_schedule] = '45 17 * * *' # At 15 minutes after every hour every day
+AppConfig[:yale_accession_marc_export_schedule] = '45 22 * * *' # 22:45 every day; Lyrasis servers are on UTC, so this is 1745 EST and 1845 EDT
 AppConfig[:yale_accession_marc_export_location_code] = 'beints'
 AppConfig[:yale_accession_marc_export_target] = 's3'
 AppConfig[:yale_accession_marc_export_s3_client_opts] = {
