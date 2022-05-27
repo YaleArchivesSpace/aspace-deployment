@@ -37,8 +37,8 @@ plugins:
     url: https://github.com/hudmol/material_types.git
   - name: payments_module
     git: true
-    branch: "v1.5" # Updated in connection with yale_accession_marc_export creation
-    url: https://github.com/hudmol/payments_module.git
+    branch: "e87b724"
+    url: https://github.com/YaleArchivesSpace/payments_module.git # Intended as temporary as we test new spend codes
   - name: yale_accession_marc_export # Placing immediately after related plugin
     git: true
     branch: "0.5.1-test"
