@@ -328,8 +328,8 @@ AppConfig[:limit_csv_fields] = false
 # NB: No dedicated test instance viewer for YCBA at this time (22 March 2022)
 AppConfig[:iiif_viewer_url] = {
     :default => 'https://collections-uat.library.yale.edu/uv/uv.html#?manifest=',
-    'YCBA-RBM' => 'https://view.collections.yale.edu/m3/?manifest=',
-    'YCBA-IA' => 'https://view.collections.yale.edu/m3/?manifest='
+    'YCBA-RBM' => 'https://view.collections.yale.edu/uv3/?manifest=',
+    'YCBA-IA' => 'https://view.collections.yale.edu/uv3/?manifest='
 }
 
 AppConfig[:search_csv_extra_nested_records] = ['payment_summary', 'payments']
