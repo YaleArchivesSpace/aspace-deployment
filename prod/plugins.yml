@@ -39,7 +39,7 @@ plugins:
     git: true
     branch: "78c8423"
     url: https://github.com/YaleArchivesSpace/payments_module.git
-  - name: yale_accession_marc_export # Placing immediately after related plugin
+  - name: yale_accession_marc_export
     git: true
     branch: "0.5.2"
     url: https://github.com/YaleArchivesSpace/yale_accession_marc_export.git
