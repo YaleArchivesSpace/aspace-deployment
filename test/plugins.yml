@@ -39,9 +39,9 @@ plugins:
     git: true
     branch: "78c8423"
     url: https://github.com/YaleArchivesSpace/payments_module.git # Intended as temporary as we test new spend codes
-  - name: yale_accession_marc_export # Placing immediately after related plugin
+  - name: yale_accession_marc_export
     git: true
-    branch: "0.5.2"
+    branch: "0.5.3-test"
     url: https://github.com/YaleArchivesSpace/yale_accession_marc_export.git
   - name: user_defined_in_basic
     git: true
