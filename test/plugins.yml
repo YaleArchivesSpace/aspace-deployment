@@ -1,7 +1,7 @@
 plugins:
   - name: lcnaf
     git: true
-    branch: "v1.0.0"
+    branch: "v2.0.0"
     url: https://github.com/archivesspace-plugins/lcnaf.git
   - name: pui-help
     git: true
@@ -83,10 +83,10 @@ plugins:
     git: true
     branch: "master"
     url: https://github.com/YaleArchivesSpace/display_multiple_containers.git
-  - name: omniauthCas
-    git: true
-    branch: "master"
-    url: https://github.com/YaleArchivesSpace/aspace-omniauth-cas.git
+#   - name: omniauthCas
+#     git: true
+#     branch: "master"
+#     url: https://github.com/YaleArchivesSpace/aspace-omniauth-cas.git
   - name: archivesspace_delete_button_context_plugin
     git: true
     branch: "master"
@@ -113,5 +113,5 @@ plugins:
     url: https://github.com/YaleArchivesSpace/yale-archivesspace-reports.git
   - name: container_management_labels
     git: true
-    branch: "yale_styles"
-    url: https://github.com/triplingual/container_management_labels.git
+    branch: "yale_customizations"
+    url: https://github.com/YaleArchivesSpace/container_management_labels.git
