@@ -331,6 +331,11 @@ AppConfig[:iiif_viewer_url] = {
     'YCBA-RBM' => 'https://view.collections.yale.edu/uv3/?manifest=',
     'YCBA-IA' => 'https://view.collections.yale.edu/uv3/?manifest='
 }
+# IIIF File Version criteria
+# these should be the default values in the next build, so at that point we can remove them from our config file if we'd like. 
+AppConfig[:iiif_file_format_name] = 'iiif'
+AppConfig[:iiif_use_statement] = 'text-json'
+AppConfig[:iiif_xlink_show_attribute] = 'embed'
 
 AppConfig[:search_csv_extra_nested_records] = ['payment_summary', 'payments']
 
