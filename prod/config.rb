@@ -317,8 +317,8 @@ AppConfig[:limit_csv_fields] = false
 
 AppConfig[:iiif_viewer_url] = {
     :default => 'https://collections.library.yale.edu/uv/uv.html#?manifest=',
-    'YCBA-RBM' => 'https://view.collections.yale.edu/m3/?manifest=',
-    'YCBA-IA' => 'https://view.collections.yale.edu/m3/?manifest='
+    'YCBA-RBM' => 'https://view.collections.yale.edu/uv/?manifest=',
+    'YCBA-IA' => 'https://view.collections.yale.edu/uv/?manifest='
 }
 
 AppConfig[:search_csv_extra_nested_records] = ['payment_summary', 'payments']
