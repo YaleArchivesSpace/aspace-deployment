@@ -384,12 +384,12 @@ AppConfig[:container_management_labels_csv] = true
 AppConfig[:container_management_labels_delim] = ', '
 AppConfig[:container_management_labels_series] = 'Series '
 AppConfig[:container_management_labels_pagesize] = {
-    "dymo-30256" => {
-        "size" => "59mm 102mm",
-        "margin" => "5mm 1mm 5mm 1mm"},
     "avery-5164" => {
         "size" => "letter",
-        "margin" => "0.5in 0.125in"}
+        "margin" => "0.5in 0.125in"},
+    "dymo-30256" => {
+        "size" => "59mm 102mm",
+        "margin" => "5mm 1mm 5mm 1mm"}
 }
 
 AppConfig[:container_management_labels_autoscale] = {
