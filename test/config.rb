@@ -309,6 +309,7 @@ AppConfig[:omniauthCas] = {
   :backendEmailProc   => lambda { |hash| '' },
   :logoutUrlPath      => '/cas/logout',
   :createUnknownUsers => true,
+  :allow_standard_login => true
 }
 
 ## Yale Accession MARC Export config
