@@ -74,9 +74,6 @@ AppConfig[:pui_repos] = {
   },
 }
 
-# remove after testing wraps up.
-AppConfig[:aeon_fulfillment_debug] = true
-
 # new "requests_permitted_for_digital_object_instances" parameter added for some repositories, not all, to test.
 AppConfig[:aeon_fulfillment] = {
   "arts" => {
