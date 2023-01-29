@@ -33,8 +33,8 @@ plugins:
     url: https://github.com/hudmol/aspace_yale_accessions.git
   - name: material_types
     git: true
-    branch: e7384d7bb2f99f070e4c70e3061704ea37525c85
-    url: https://github.com/hudmol/material_types.git
+    branch: v3.3.1
+    url: https://github.com/YaleArchivesSpace/material_types.git
   - name: payments_module
     git: true
     branch: "v3.3.1"
