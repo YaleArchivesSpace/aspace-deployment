@@ -13,8 +13,8 @@ AppConfig[:container_management_barcode_length] = {
 #new (so far required) setting to adjust how a few plugins are set up so that we won't always have to maintain separate branches
 AppConfig[:environment] = 'TEST'
 
-#something is overriding this now in our instances. if we re-add it here, will it work?
-AppConfig[:allow_user_registration] = true
+#turning this back off to help cut down spam accounts.  update account instructions to go with the CAS-first approach (assuming that works). 
+AppConfig[:allow_user_registration] = false
 
 AppConfig[:container_management_extent_calculator] = {
   :report_volume => false,

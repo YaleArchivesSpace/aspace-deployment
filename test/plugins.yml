@@ -33,12 +33,12 @@ plugins:
     url: https://github.com/hudmol/aspace_yale_accessions.git
   - name: material_types
     git: true
-    branch: e7384d7bb2f99f070e4c70e3061704ea37525c85
-    url: https://github.com/hudmol/material_types.git
+    branch: v3.3.1
+    url: https://github.com/YaleArchivesSpace/material_types.git
   - name: payments_module
     git: true
-    branch: "78c8423"
-    url: https://github.com/YaleArchivesSpace/payments_module.git # Intended as temporary as we test new spend codes
+    branch: "v3.3.1"
+    url: https://github.com/YaleArchivesSpace/payments_module.git 
   - name: yale_accession_marc_export
     git: true
     branch: "0.5.3-test"
@@ -85,7 +85,7 @@ plugins:
     url: https://github.com/YaleArchivesSpace/display_multiple_containers.git
   - name: omniauthCas
     git: true
-    branch: "yale-v331"
+    branch: "yale-v331-oldGems"
     url: https://github.com/YaleArchivesSpace/aspace-omniauth-cas.git
   - name: archivesspace_delete_button_context_plugin
     git: true
