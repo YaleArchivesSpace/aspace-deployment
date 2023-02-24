@@ -10,6 +10,13 @@ AppConfig[:container_management_barcode_length] = {
   }
 }
 
+# Log level values: (everything) debug, info, warn, error, fatal (severe only)
+AppConfig[:frontend_log_level] = "debug"
+AppConfig[:backend_log_level]  = "debug"
+AppConfig[:pui_log_level]      = "debug"
+AppConfig[:indexer_log_level]  = "debug"
+
+
 #new (so far required) setting to adjust how a few plugins are set up so that we won't always have to maintain separate branches
 AppConfig[:environment] = 'TEST'
 
