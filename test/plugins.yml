@@ -65,7 +65,7 @@ plugins:
     url: https://github.com/marktriggs/in_a_rush.git
   - name: child_publisher
     git: true
-    branch: "0.6"
+    branch: "363bba9"
     url: https://github.com/hudmol/child_publisher.git
   - name: yale_marcxml_export_plugin
     git: true
