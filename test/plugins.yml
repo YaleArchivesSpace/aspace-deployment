@@ -57,7 +57,7 @@ plugins:
     url: https://github.com/YaleArchivesSpace/digitization_work_order.git
   - name: yale_as_requests
     git: true
-    branch: "b793c6b"
+    branch: "0e0edc3"
     url: https://github.com/triplingual/yale_as_requests.git
   - name: in_a_rush
     git: true
