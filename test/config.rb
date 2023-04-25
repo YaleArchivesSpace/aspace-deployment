@@ -15,7 +15,7 @@ AppConfig[:frontend_log_level] = "debug"
 AppConfig[:backend_log_level]  = "debug"
 AppConfig[:pui_log_level]      = "debug"
 AppConfig[:indexer_log_level]  = "debug"
-
+AppConfig[:pui_indexer_records_per_thread]	= 15
 
 #new (so far required) setting to adjust how a few plugins are set up so that we won't always have to maintain separate branches
 AppConfig[:environment] = 'TEST'
