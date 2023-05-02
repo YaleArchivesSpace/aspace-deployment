@@ -1,8 +1,4 @@
 plugins:
-  - name: lcnaf
-    git: true
-    branch: "v2.0.0"
-    url: https://github.com/archivesspace-plugins/lcnaf.git
   - name: pui-help
     git: true
     branch: "20210607163539"
