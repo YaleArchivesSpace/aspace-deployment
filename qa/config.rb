@@ -16,7 +16,7 @@ AppConfig[:pui_indexer_records_per_thread]	= 15
 #new (so far required) setting to adjust how a few plugins are set up so that we won't always have to maintain separate branches
 AppConfig[:environment] = 'QA'
 
-#something is overriding this now in our instances. if we re-add it here, will it work?
+# Want to ensure for sure that we can get registrations. May 2023 reasons include a bunch of hiring. Consequences include needing to manually cull spam accounts or to set up automatic means for culling spam.
 AppConfig[:allow_user_registration] = true
 
 AppConfig[:container_management_extent_calculator] = {
