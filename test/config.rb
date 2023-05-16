@@ -234,7 +234,7 @@ AppConfig[:aeon_fulfillment_record_types] = [
   "top_container"
 ]
 
-AppConfig[:aeon_disable_photoduplication] = false
+AppConfig[:aeon_disable_photoduplication] = true
 
 AppConfig[:aeon_client_max_results] = 3000
 AppConfig[:aeon_client_username] = 's_lib_t_aeon_search'
