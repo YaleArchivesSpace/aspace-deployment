@@ -213,7 +213,6 @@ AppConfig[:aeon_fulfillment] = {
     :hide_request_button => true
   }
 }
-
 AppConfig[:aeon_fulfillment_button_position] = 0
 AppConfig[:aeon_fulfillment_record_types] = [
   "archival_object",
@@ -223,7 +222,7 @@ AppConfig[:aeon_fulfillment_record_types] = [
 
 AppConfig[:aeon_disable_photoduplication] = true
 
-AppConfig[:aeon_client_max_results] = 5000
+AppConfig[:aeon_client_max_results] = 3000
 AppConfig[:aeon_client_username] = 's_lib_aeon_lookup'
 AppConfig[:aeon_client_password] = ENV.fetch('AEON_CLIENT_PASSWORD', nil)
 AppConfig[:aeon_client_repo_codes] = [
