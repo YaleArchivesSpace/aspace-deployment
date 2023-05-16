@@ -10,6 +10,9 @@ AppConfig[:container_management_barcode_length] = {
   }
 }
 
+# Slow down indexer because it was getting overwhelmed
+AppConfig[:pui_indexer_records_per_thread]	= 15
+
 #new (so far required) setting to adjust how a few plugins are set up so that we won't always have to maintain separate branches
 AppConfig[:environment] = 'QA'
 
@@ -94,7 +97,7 @@ AppConfig[:aeon_fulfillment] = {
     :request_in_new_tab => true,
     :requests_permitted_for_containers_only => true,
     :hide_button_for_access_restriction_types => ['NoRequest'],
-    :hide_button_for_accessions => false,
+    :hide_button_for_accessions => true,
     :document_type_map => {:default => 'BRBL'},
     :web_request_form_map => {:default => 'GenericRequestORBIS'},
     :aeon_site_code => "BRBL"
@@ -154,7 +157,7 @@ AppConfig[:aeon_fulfillment] = {
     :aeon_site_code => "DIVY"
   },
   "fortunoff_testimonies" => {
-    :aeon_web_url => "https://aeon-test-mssa.library.yale.edu/5.1/aeon.dll",
+    :aeon_web_url => "https://aeon-mssa.library.yale.edu/aeon.dll",
     :aeon_return_link_label => "Return to Archives at Yale",
     :aeon_external_system_id => "ArchivesSpace",
     :request_in_new_tab => true,
@@ -223,7 +226,7 @@ AppConfig[:aeon_fulfillment_record_types] = [
 
 AppConfig[:aeon_disable_photoduplication] = true
 
-AppConfig[:aeon_client_max_results] = 5000
+AppConfig[:aeon_client_max_results] = 3000
 AppConfig[:aeon_client_username] = 's_lib_aeon_lookup'
 AppConfig[:aeon_client_password] = ENV.fetch('AEON_CLIENT_PASSWORD', nil)
 AppConfig[:aeon_client_repo_codes] = [
@@ -299,16 +302,33 @@ AppConfig[:omniauthCas] = {
   :backendEmailProc   => lambda { |hash| '' },
   :logoutUrlPath      => '/cas/logout',
   :createUnknownUsers => true,
+  :allow_standard_login => true
 }
+
+## Yale Accession MARC Export config
+AppConfig[:yale_accession_marc_export_schedule] = '45 22 * * *' # 22:45 every day; Lyrasis servers are on UTC, so this is 1745 EST and 1845 EDT
+AppConfig[:yale_accession_marc_export_location_code] = 'beints'
+AppConfig[:yale_accession_marc_export_target] = 's3'
+AppConfig[:yale_accession_marc_export_s3_client_opts] = {
+  :access_key_id => ENV.fetch('YALE_ACCESS_KEY_ID', nil),
+  :secret_access_key => ENV.fetch('YALE_SECRET_ACCESS_KEY', nil),
+  :region => 'us-west-2',
+}
+AppConfig[:yale_accession_marc_export_s3_bucket] = 'aspace-yale-test'
 
 # Determines whether or not all fields are exported with a CSV export, or if only the columns that display on screen are exported (false = all columns, which was the default prior to ASpace 2.7)
 AppConfig[:limit_csv_fields] = false
 
+# NB: No dedicated test instance viewer for YCBA at this time (22 March 2022)
 AppConfig[:iiif_viewer_url] = {
     :default => 'https://collections.library.yale.edu/uv/uv.html#?manifest=',
-    'YCBA-RBM' => 'https://view.collections.yale.edu/m3/?manifest=',
-    'YCBA-IA' => 'https://view.collections.yale.edu/m3/?manifest='
+    'YCBA-RBM' => 'https://view.collections.yale.edu/uv3/?manifest=',
+    'YCBA-IA' => 'https://view.collections.yale.edu/uv3/?manifest='
 }
+# IIIF File Version criteria
+AppConfig[:iiif_file_format_name] = 'iiif'
+AppConfig[:iiif_use_statement] = 'text-json'
+AppConfig[:iiif_xlink_show_attribute] = 'embed'
 
 AppConfig[:search_csv_extra_nested_records] = ['payment_summary', 'payments']
 
@@ -357,12 +377,12 @@ AppConfig[:container_management_labels_csv] = true
 AppConfig[:container_management_labels_delim] = ', '
 AppConfig[:container_management_labels_series] = 'Series '
 AppConfig[:container_management_labels_pagesize] = {
+    "avery-5164" => {
+        "size" => "letter",
+        "margin" => "0.5in 0.125in"},
     "dymo-30256" => {
         "size" => "59mm 102mm",
-        "margin" => "5mm 1mm 5mm 1mm"},
-    "avery-5163" => {
-        "size" => "letter",
-        "margin" => "0.5in 0.125in"}
+        "margin" => "5mm 1mm 5mm 1mm"}
 }
 
 AppConfig[:container_management_labels_autoscale] = {
