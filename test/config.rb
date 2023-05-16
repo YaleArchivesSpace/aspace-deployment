@@ -20,7 +20,7 @@ AppConfig[:pui_indexer_records_per_thread]	= 15
 #new (so far required) setting to adjust how a few plugins are set up so that we won't always have to maintain separate branches
 AppConfig[:environment] = 'TEST'
 
-#turning this back off to help cut down spam accounts.  update account instructions to go with the CAS-first approach (assuming that works). 
+# Leaving off in Test, but will be available in other environments
 AppConfig[:allow_user_registration] = false
 
 AppConfig[:container_management_extent_calculator] = {
