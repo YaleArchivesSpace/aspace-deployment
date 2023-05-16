@@ -29,7 +29,6 @@ AppConfig[:container_management_extent_calculator] = {
   :decimal_places => 2
 }
 
-# AppConfig[:digitization_work_order_ladybird]   = true
 AppConfig[:digitization_work_order_goobi]      = true
 AppConfig[:max_top_container_results]          = 2500
 AppConfig[:preservica_data_deleter_match_url]  = "https://preservica.library.yale.edu"
@@ -81,7 +80,7 @@ AppConfig[:pui_repos] = {
   },
 }
 
-# new "requests_permitted_for_digital_object_instances" parameter added for some repositories, not all, to test.
+# Note that without explicit "requests_permitted_for_born_digital" parameter, requests for born digital items will not be permitted
 AppConfig[:aeon_fulfillment] = {
   "arts" => {
     :aeon_web_url => "https://aeon-test-mssa.library.yale.edu/aeon.dll",
@@ -337,7 +336,7 @@ AppConfig[:iiif_viewer_url] = {
     'YCBA-IA' => 'https://view.collections.yale.edu/uv3/?manifest='
 }
 # IIIF File Version criteria
-# these should be the default values in the next build, so at that point we can remove them from our config file if we'd like. 
+# these should be the default values in the next build, so at that point we can remove them from our config file if we'd like.
 AppConfig[:iiif_file_format_name] = 'iiif'
 AppConfig[:iiif_use_statement] = 'text-json'
 AppConfig[:iiif_xlink_show_attribute] = 'embed'
