@@ -105,7 +105,7 @@ plugins:
     url: https://github.com/YaleArchivesSpace/yale_staff_customizations.git
   - name: yale-archivesspace-reports
     git: true
-    branch: "20230509174149"
+    branch: "v1.7"
     url: https://github.com/YaleArchivesSpace/yale-archivesspace-reports.git
   - name: container_management_labels
     git: true
