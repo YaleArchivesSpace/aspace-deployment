@@ -10,11 +10,17 @@ AppConfig[:container_management_barcode_length] = {
   }
 }
 
+# Metadata Cloud harvesting is using up all connections some times.
+# We think this number will improve things.
+AppConfig[:db_max_connections] = 50
+
 # Log level values: (everything) debug, info, warn, error, fatal (severe only)
 AppConfig[:frontend_log_level] = "debug"
 AppConfig[:backend_log_level]  = "debug"
 AppConfig[:pui_log_level]      = "debug"
 AppConfig[:indexer_log_level]  = "debug"
+
+# Slow down indexer because it was getting overwhelmed
 AppConfig[:pui_indexer_records_per_thread]	= 15
 
 #new (so far required) setting to adjust how a few plugins are set up so that we won't always have to maintain separate branches
