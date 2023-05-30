@@ -10,6 +10,10 @@ AppConfig[:container_management_barcode_length] = {
   }
 }
 
+# Metadata Cloud harvesting is using up all connections some times.
+# We think this number will improve things.
+AppConfig[:db_max_connections] = 50
+
 # Log level values: (everything) debug, info, warn, error, fatal (severe only)
 AppConfig[:frontend_log_level] = "debug"
 AppConfig[:backend_log_level]  = "debug"

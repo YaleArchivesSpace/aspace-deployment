@@ -10,6 +10,10 @@ AppConfig[:container_management_barcode_length] = {
   }
 }
 
+# Metadata Cloud harvesting is using up all connections some times.
+# We think this number will improve things.
+AppConfig[:db_max_connections] = 50
+
 #new (so far required) setting to adjust how a few plugins are set up so that we won't always have to maintain separate branches
 AppConfig[:environment] = 'PROD'
 
