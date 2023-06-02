@@ -65,7 +65,7 @@ plugins:
     url: https://github.com/YaleArchivesSpace/yale_marcxml_export_plugin.git
   - name: yale_series_titles
     git: true
-    branch: "master"
+    branch: "4d3ffd7"
     url: https://github.com/YaleArchivesSpace/yale_series_titles.git
   - name: yale_accession_slips
     git: true
