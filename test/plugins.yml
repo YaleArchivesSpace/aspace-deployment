@@ -73,7 +73,7 @@ plugins:
     url: https://github.com/YaleArchivesSpace/yale_series_titles.git
   - name: yale_accession_slips
     git: true
-    branch: "master"
+    branch: "ebc6666"
     url: https://github.com/hudmol/yale_accession_slips.git
   - name: display_multiple_containers
     git: true
