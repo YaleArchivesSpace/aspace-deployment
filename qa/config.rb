@@ -20,7 +20,6 @@ AppConfig[:backend_log_level]  = "debug"
 AppConfig[:pui_log_level]      = "debug"
 AppConfig[:indexer_log_level]  = "debug"
 
-
 # Slow down indexer because it was getting overwhelmed
 AppConfig[:pui_indexer_records_per_thread]	= 15
 
