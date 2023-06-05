@@ -25,7 +25,7 @@ plugins:
     url: https://github.com/YaleArchivesSpace/extended_advanced_search.git
   - name: aspace_yale_accessions
     git: true
-    branch: "1.1"
+    branch: "1.2"
     url: https://github.com/hudmol/aspace_yale_accessions.git
   - name: material_types
     git: true
