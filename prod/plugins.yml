@@ -105,5 +105,5 @@ plugins:
     url: https://github.com/YaleArchivesSpace/yale-archivesspace-reports.git
   - name: container_management_labels
     git: true
-    branch: "avery-5164"
-    url: https://github.com/triplingual/container_management_labels.git
+    branch: "yale_customizations"
+    url: https://github.com/YaleArchivesSpace/container_management_labels.git
