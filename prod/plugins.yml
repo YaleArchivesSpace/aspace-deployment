@@ -97,7 +97,7 @@ plugins:
     url: https://github.com/YaleArchivesSpace/yale_pui_customizations.git
   - name: yale_staff_customizations
     git: true
-    branch: "v3.0.0" # in branch v3.3.x-compatible
+    branch: "v3.1.0" # in branch v3.3.x-compatible
     url: https://github.com/YaleArchivesSpace/yale_staff_customizations.git
   - name: yale-archivesspace-reports
     git: true
