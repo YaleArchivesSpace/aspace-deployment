@@ -14,6 +14,9 @@ AppConfig[:container_management_barcode_length] = {
 # We think this number will improve things.
 AppConfig[:db_max_connections] = 50
 
+# June 2023: Continued issues with indexing lag. This may help.
+AppConfig[:indexer_solr_timeout_seconds] = 600
+
 #new (so far required) setting to adjust how a few plugins are set up so that we won't always have to maintain separate branches
 AppConfig[:environment] = 'PROD'
 
