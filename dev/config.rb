@@ -16,6 +16,14 @@ AppConfig[:environment] = 'DEV'
 #something is overriding this now in our instances. if we re-add it here, will it work?
 AppConfig[:allow_user_registration] = true
 
+#Attempting to mitigate slow-indexing issues, following Blake's suggestion in case 18904
+AppConfig[:indexer_thread_count] = 1
+AppConfig[:pui_indexer_thread_count] = 1
+AppConfig[:indexer_records_per_thread] = 10
+AppConfig[:pui_indexer_records_per_thread ] = 10
+
+
+
 AppConfig[:container_management_extent_calculator] = {
   :report_volume => false,
   :unit => :feet,
