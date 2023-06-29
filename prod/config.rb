@@ -12,7 +12,8 @@ AppConfig[:container_management_barcode_length] = {
 
 # Metadata Cloud harvesting is using up all connections some times.
 # We think this number will improve things.
-AppConfig[:db_max_connections] = 50
+# Further increasing per suggestions in 18904
+AppConfig[:db_max_connections] = 60
 
 # June 2023: Continued issues with indexing lag. This may help.
 AppConfig[:indexer_solr_timeout_seconds] = 600
