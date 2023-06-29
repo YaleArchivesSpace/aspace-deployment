@@ -21,7 +21,7 @@ AppConfig[:indexer_thread_count] = 1
 AppConfig[:pui_indexer_thread_count] = 1
 AppConfig[:indexer_records_per_thread] = 10
 AppConfig[:pui_indexer_records_per_thread ] = 10
-
+AppConfig[:db_max_connections] = 60
 
 
 AppConfig[:container_management_extent_calculator] = {
