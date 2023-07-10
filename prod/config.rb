@@ -13,13 +13,13 @@ AppConfig[:container_management_barcode_length] = {
 # Metadata Cloud harvesting is using up all connections some times.
 # We think this number will improve things.
 # Further increasing per suggestions in 18904
-AppConfig[:db_max_connections] = 60
+AppConfig[:db_max_connections] = 70
 
 # Other changes to try to improve indexing
-AppConfig[:indexer_thread_count] = 1
-AppConfig[:pui_indexer_thread_count] = 1
-AppConfig[:indexer_records_per_thread] = 10
-AppConfig[:pui_indexer_records_per_thread] = 10
+AppConfig[:indexer_thread_count] = 5
+AppConfig[:pui_indexer_thread_count] = 5
+AppConfig[:indexer_records_per_thread] = 15
+AppConfig[:pui_indexer_records_per_thread] = 15
 
 #new (so far required) setting to adjust how a few plugins are set up so that we won't always have to maintain separate branches
 AppConfig[:environment] = 'PROD'
