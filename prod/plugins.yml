@@ -107,3 +107,7 @@ plugins:
     git: true
     branch: "yale_customizations"
     url: https://github.com/YaleArchivesSpace/container_management_labels.git
+  - name: print
+    git: true
+    branch: "v1.0.0" # changed in b7eb5f90
+    url: https://github.com/YaleArchivesSpace/print.git
