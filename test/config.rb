@@ -105,7 +105,7 @@ AppConfig[:aeon_fulfillment] = {
     :aeon_site_code => "ART"
   },
   "brbl" => {
-    :aeon_web_url => "https://aeon-test-brbl.library.yale.edu/aeon.dll",
+    :aeon_web_url => "https://aeon-test.library.yale.edu/aeon.dll",
     :aeon_return_link_label => "Return to Archives at Yale",
     :aeon_external_system_id => "ArchivesSpace",
     :request_in_new_tab => true,
@@ -118,7 +118,7 @@ AppConfig[:aeon_fulfillment] = {
     :aeon_site_code => "BRBL"
   },
   "mssa" => {
-    :aeon_web_url => "https://aeon-test-mssa.library.yale.edu/aeon.dll",
+    :aeon_web_url => "https://aeon-test.library.yale.edu/aeon.dll",
     :aeon_return_link_label => "Return to Archives at Yale",
     :aeon_external_system_id => "ArchivesSpace",
     :request_in_new_tab => true,
