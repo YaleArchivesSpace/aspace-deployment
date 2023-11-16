@@ -1,5 +1,5 @@
 plugins:
-  - name: lcnaf
+  - name: lc-name-authority-file
     git: true
     branch: "v2.0.0"
     url: https://github.com/archivesspace-plugins/lcnaf.git
