@@ -5,28 +5,28 @@ plugins:
     url: https://github.com/archivesspace-plugins/lcnaf.git
   - name: pui-help
     git: true
-    branch: "20210607163539"
+    branch: "1.2"
     url: https://github.com/YaleArchivesSpace/pui-help.git
   - name: yale_pui_pdf
     git: true
-    branch: "master"
+    branch: "v1.0.0"
     url: https://github.com/YaleArchivesSpace/yale_pui_pdf.git
   - name: yale_pui_hashtag
     git: true
-    branch: "master"
+    branch: "v1.0.0"
     url: https://github.com/YaleArchivesSpace/yale_pui_hashtag.git
   - name: yale_pui_ask_a_question
     git: true
-    branch: "master"
+    branch: "v1.0.0"
     url: https://github.com/YaleArchivesSpace/yale_pui_ask_a_question.git
   - name: aspace_yale_pui
     git: true
-    branch: "test"
+    branch: "v1.1.0"
     url: https://github.com/YaleArchivesSpace/aspace_yale_pui.git
   - name: extended_advanced_search
     git: true
     branch: "master"
-    url: https://github.com/hudmol/extended_advanced_search.git
+    url: https://github.com/YaleArchivesSpace/extended_advanced_search.git
   - name: aspace_yale_accessions
     git: true
     branch: "1.2"
@@ -53,7 +53,7 @@ plugins:
     url: https://github.com/hudmol/preservica_data_deleter.git
   - name: digitization_work_order
     git: true
-    branch: "v1.11.y-test"
+    branch: "v1.11.y-test" # Same content as v1.11.y, but on `test` branch
     url: https://github.com/YaleArchivesSpace/digitization_work_order.git
   - name: yale_as_requests
     git: true
@@ -69,7 +69,7 @@ plugins:
     url: https://github.com/hudmol/child_publisher.git
   - name: yale_marcxml_export_plugin
     git: true
-    branch: "test"
+    branch: "3c23f970a00cc6ea570e3bcf6002a3d799794e00" # Same as prod, `test` branch
     url: https://github.com/YaleArchivesSpace/yale_marcxml_export_plugin.git
   - name: yale_series_titles
     git: true
@@ -101,7 +101,7 @@ plugins:
     url: https://github.com/hudmol/yale_repositories.git
   - name: yale_pui_customizations
     git: true
-    branch: "v2.0.1" # in branch v3.3.1-compatible
+    branch: "v2.0.1"
     url: https://github.com/YaleArchivesSpace/yale_pui_customizations.git
   - name: yale_staff_customizations
     git: true
@@ -113,9 +113,9 @@ plugins:
     url: https://github.com/YaleArchivesSpace/yale-archivesspace-reports.git
   - name: container_management_labels
     git: true
-    branch: "yale_customizations" # changed in b7eb5f90
+    branch: "yale_customizations"
     url: https://github.com/YaleArchivesSpace/container_management_labels.git
   - name: print
     git: true
-    branch: "v1.0.0" # changed in b7eb5f90
+    branch: "v1.0.0"
     url: https://github.com/YaleArchivesSpace/print.git
