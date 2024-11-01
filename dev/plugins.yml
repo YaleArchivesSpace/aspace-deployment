@@ -83,10 +83,10 @@ plugins:
     git: true
     branch: "master"
     url: https://github.com/YaleArchivesSpace/yale_pui_dev_only.git
-  - name: yale_staff_customizations
-    git: true
-    branch: "3aa4830"
-    url: https://github.com/YaleArchivesSpace/yale_staff_customizations.git
+#   - name: yale_staff_customizations
+#     git: true
+#     branch: "3aa4830"
+#     url: https://github.com/YaleArchivesSpace/yale_staff_customizations.git
   - name: yale-archivesspace-reports
     git: true
     branch: "dev"
