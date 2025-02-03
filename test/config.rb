@@ -305,7 +305,7 @@ AppConfig[:record_inheritance] = {
   }
 }
 
-AppConfig[:google_maps_api_key] = ENV.fetch('GOOGLE_MAPS_API_KEY', nil)
+AppConfig[:google_maps_api_key] = ENV.fetch("GOOGLE_MAPS_API_KEY", nil)
 AppConfig[:libcal_service_id] = '457'
 
 AppConfig[:omniauthCas] = {
@@ -329,9 +329,9 @@ AppConfig[:yale_accession_marc_export_schedule] = '45 22 * * *' # 22:45 every da
 AppConfig[:yale_accession_marc_export_location_code] = 'beints'
 AppConfig[:yale_accession_marc_export_target] = 's3'
 AppConfig[:yale_accession_marc_export_s3_client_opts] = {
-  :access_key_id: ENV.fetch("YALE_TEST_ACCESS_KEY_ID", nil),
-  :secret_access_key: ENV.fetch("YALE_TEST_SECRET_ACCESS_KEY", nil),
-  :region => 'us-west-2',
+  access_key_id: ENV.fetch("YALE_TEST_ACCESS_KEY_ID", nil),
+  secret_access_key: ENV.fetch("YALE_TEST_SECRET_ACCESS_KEY", nil),
+  region: "us-west-2"
 }
 AppConfig[:yale_accession_marc_export_s3_bucket] = 'aspace-yale-test'
 
