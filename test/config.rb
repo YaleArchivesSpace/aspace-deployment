@@ -247,7 +247,7 @@ AppConfig[:aeon_disable_photoduplication] = false
 
 AppConfig[:aeon_client_max_results] = 3000
 AppConfig[:aeon_client_username] = 's_lib_t_aeon_search'
-AppConfig[:aeon_client_password] = ENV.fetch('AEON_CLIENT_PASSWORD', nil)
+AppConfig[:aeon_client_password] = ENV.fetch("YALE_TEST_AEON_CLIENT_PASSWORD", nil)
 AppConfig[:aeon_client_repo_codes] = [
   "Arts",
   "BRBL",
@@ -329,8 +329,8 @@ AppConfig[:yale_accession_marc_export_schedule] = '45 22 * * *' # 22:45 every da
 AppConfig[:yale_accession_marc_export_location_code] = 'beints'
 AppConfig[:yale_accession_marc_export_target] = 's3'
 AppConfig[:yale_accession_marc_export_s3_client_opts] = {
-  :access_key_id => ENV.fetch('YALE_ACCESS_KEY_ID', nil),
-  :secret_access_key => ENV.fetch('YALE_SECRET_ACCESS_KEY', nil),
+  :access_key_id: ENV.fetch("YALE_TEST_ACCESS_KEY_ID", nil),
+  :secret_access_key: ENV.fetch("YALE_TEST_SECRET_ACCESS_KEY", nil),
   :region => 'us-west-2',
 }
 AppConfig[:yale_accession_marc_export_s3_bucket] = 'aspace-yale-test'
