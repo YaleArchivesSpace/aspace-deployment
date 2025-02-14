@@ -41,7 +41,7 @@ plugins:
     url: https://github.com/YaleArchivesSpace/payments_module.git
   - name: yale_accession_marc_export
     git: true
-    branch: "0.5.2"
+    branch: "0.5.4"
     url: https://github.com/YaleArchivesSpace/yale_accession_marc_export.git
   - name: user_defined_in_basic
     git: true
