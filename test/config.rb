@@ -341,8 +341,8 @@ AppConfig[:limit_csv_fields] = false
 # NB: No dedicated test instance viewer for YCBA at this time (22 March 2022)
 AppConfig[:iiif_viewer_url] = {
     :default => 'https://collections-uat.library.yale.edu/uv/uv.html#?manifest=',
-    'YCBA-RBM' => 'https://view.collections.yale.edu/uv3/?manifest=',
-    'YCBA-IA' => 'https://view.collections.yale.edu/uv3/?manifest='
+    'YCBA-RBM' => 'https://view.collections.yale.edu/uv4/?embedded=true&manifest=',
+    'YCBA-IA' => 'https://view.collections.yale.edu/uv4/?embedded=true&manifest='
 }
 # IIIF File Version criteria
 # these should be the default values in the next build, so at that point we can remove them from our config file if we'd like.
