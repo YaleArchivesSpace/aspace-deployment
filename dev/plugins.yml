@@ -43,10 +43,10 @@ plugins:
     git: true
     branch: "v0.6"
     url: https://github.com/hudmol/preservica_data_deleter.git
-  - name: digitization_work_order
-    git: true
-    branch: "v1.11.y-test"
-    url: https://github.com/YaleArchivesSpace/digitization_work_order.git
+  # - name: digitization_work_order
+  #   git: true
+  #   branch: "v1.11.y-test"
+  #   url: https://github.com/YaleArchivesSpace/digitization_work_order.git
   - name: yale_as_requests
     git: true
     branch: "6829392"
