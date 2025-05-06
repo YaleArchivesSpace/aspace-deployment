@@ -35,14 +35,14 @@ plugins:
     git: true
     branch: v3.3.1
     url: https://github.com/YaleArchivesSpace/material_types.git
-  - name: payments_module
-    git: true
-    branch: "20230621"
-    url: https://github.com/YaleArchivesSpace/payments_module.git 
-  - name: yale_accession_marc_export
-    git: true
-    branch: "0.5.4-test"
-    url: https://github.com/YaleArchivesSpace/yale_accession_marc_export.git
+  # - name: payments_module
+  #   git: true
+  #   branch: "20230621"
+  #   url: https://github.com/YaleArchivesSpace/payments_module.git 
+  # - name: yale_accession_marc_export
+  #   git: true
+  #   branch: "0.5.4-test"
+  #   url: https://github.com/YaleArchivesSpace/yale_accession_marc_export.git
   - name: user_defined_in_basic
     git: true
     branch: "0.6"
