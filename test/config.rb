@@ -113,7 +113,7 @@ AppConfig[:aeon_fulfillment] = {
     :hide_button_for_access_restriction_types => ['NoRequest'],
     :hide_button_for_accessions => true,
     :document_type_map => {:default => 'BRBL'},
-    :web_request_form_map => {:default => 'GenericRequestORBIS'},
+    :web_request_form_map => {:default => 'GenericRequestManuscript'},
     :requests_permitted_for_born_digital => true,
     :aeon_site_code => "BRBL"
   },
