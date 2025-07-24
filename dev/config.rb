@@ -101,7 +101,7 @@ AppConfig[:aeon_fulfillment] = {
     :requests_permitted_for_containers_only => true,
     :hide_button_for_access_restriction_types => ['NoRequest'],
     :hide_button_for_accessions => false,
-    :document_type_map => {:default => 'BRBL'},
+    :document_type_map => {:default => 'Manuscript'},
     :web_request_form_map => {:default => 'GenericRequestManuscript'},
     :aeon_site_code => "BRBL"
   },
