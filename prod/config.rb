@@ -21,6 +21,9 @@ AppConfig[:pui_indexer_thread_count] = 5
 AppConfig[:indexer_records_per_thread] = 15
 AppConfig[:pui_indexer_records_per_thread] = 15
 
+# Update July 2025 to double indexing timeout
+AppConfig[:indexer_solr_timeout_seconds] = 600
+
 #new (so far required) setting to adjust how a few plugins are set up so that we won't always have to maintain separate branches
 AppConfig[:environment] = 'PROD'
 
