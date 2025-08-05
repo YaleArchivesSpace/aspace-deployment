@@ -21,7 +21,7 @@ plugins:
     url: https://github.com/YaleArchivesSpace/yale_pui_ask_a_question.git
   - name: aspace_yale_pui
     git: true
-    branch: "v1.1.0"
+    branch: "v1.1.3-fix"
     url: https://github.com/YaleArchivesSpace/aspace_yale_pui.git
   - name: extended_advanced_search
     git: true

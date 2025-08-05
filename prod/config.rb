@@ -398,3 +398,7 @@ AppConfig[:container_management_labels_autoscale] = {
   "checked" => true,
   "disabled" => false
 }
+
+# Controls whether OPAC/Orbis catalog links appear on Resource records in the PUI.
+# Used by the aspace_yale_pui plugin (see models/resource_ext.rb).
+AppConfig[:show_opac_link] = false
