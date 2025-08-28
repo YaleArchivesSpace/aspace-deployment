@@ -14,8 +14,8 @@ AppConfig[:container_management_barcode_length] = {
 # We think this number will improve things.
 AppConfig[:db_max_connections] = 50
 
-# June 2023: Continued issues with indexing lag in Prod. This environment is OK, but we want to keep aligned.
-AppConfig[:indexer_solr_timeout_seconds] = 600
+# August 2025: Testing out upping timeout in a major way to try and isolate indexer issue
+AppConfig[:indexer_solr_timeout_seconds] = 7200
 
 # Log level values: (everything) debug, info, warn, error, fatal (severe only)
 AppConfig[:frontend_log_level] = "debug"
