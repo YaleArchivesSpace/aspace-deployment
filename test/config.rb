@@ -17,6 +17,12 @@ AppConfig[:db_max_connections] = 50
 # August 2025: Testing out upping timeout in a major way to try and isolate indexer issue
 AppConfig[:indexer_solr_timeout_seconds] = 7200
 
+# September 2025: Other changes to try to improve indexing
+AppConfig[:indexer_thread_count] = 3
+AppConfig[:pui_indexer_thread_count] = 3
+AppConfig[:indexer_records_per_thread] = 30
+AppConfig[:pui_indexer_records_per_thread] = 30
+
 # Log level values: (everything) debug, info, warn, error, fatal (severe only)
 AppConfig[:frontend_log_level] = "debug"
 AppConfig[:backend_log_level]  = "debug"
