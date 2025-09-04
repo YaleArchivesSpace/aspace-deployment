@@ -18,19 +18,16 @@ AppConfig[:db_max_connections] = 50
 AppConfig[:indexer_solr_timeout_seconds] = 7200
 
 # September 2025: Other changes to try to improve indexing
-AppConfig[:indexer_thread_count] = 3
-AppConfig[:pui_indexer_thread_count] = 3
-AppConfig[:indexer_records_per_thread] = 30
-AppConfig[:pui_indexer_records_per_thread] = 30
+AppConfig[:indexer_thread_count] = 10
+AppConfig[:pui_indexer_thread_count] = 1
+AppConfig[:indexer_records_per_thread] = 40
+AppConfig[:pui_indexer_records_per_thread] = 15
 
 # Log level values: (everything) debug, info, warn, error, fatal (severe only)
 AppConfig[:frontend_log_level] = "debug"
 AppConfig[:backend_log_level]  = "debug"
 AppConfig[:pui_log_level]      = "debug"
 AppConfig[:indexer_log_level]  = "debug"
-
-# Slow down indexer because it was getting overwhelmed
-AppConfig[:pui_indexer_records_per_thread]	= 15
 
 #new (so far required) setting to adjust how a few plugins are set up so that we won't always have to maintain separate branches
 AppConfig[:environment] = 'TEST'
