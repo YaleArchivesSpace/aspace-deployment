@@ -53,7 +53,7 @@ plugins:
     url: https://github.com/YaleArchivesSpace/digitization_work_order.git
   - name: yale_as_requests
     git: true
-    branch: "yale-1.1-20250506"
+    branch: "yale_prod-2026-01-22-aeon-no-request-v1"
     url: https://github.com/YaleArchivesSpace/yale_as_requests.git
   - name: in_a_rush
     git: true
