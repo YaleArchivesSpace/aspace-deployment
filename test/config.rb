@@ -417,3 +417,7 @@ AppConfig[:container_management_labels_autoscale] = {
 # Controls whether OPAC/Orbis catalog links appear on Resource records in the PUI.
 # Used by the aspace_yale_pui plugin (see models/resource_ext.rb).
 AppConfig[:show_opac_link] = false
+
+# This controls the cron schedule for the aspace_sitemap plugin
+# To start, we will run this Fridays at 1AM
+AppConfig[:aspace_sitemap_cron] = "0 1 * * 6"
