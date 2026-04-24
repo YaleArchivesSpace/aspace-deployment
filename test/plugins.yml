@@ -121,5 +121,5 @@ plugins:
     url: https://github.com/YaleArchivesSpace/print.git
   - name: aspace_sitemap
     git: true
-    branch: "v1.1.1"
-    url: https://github.com/dartmouth-dltg/aspace_sitemap.git
+    branch: "main"
+    url: https://github.com/YaleArchivesSpace/aspace_sitemap.git
