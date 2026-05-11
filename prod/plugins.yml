@@ -115,3 +115,7 @@ plugins:
     git: true
     branch: "v1.0.0" # changed in b7eb5f90
     url: https://github.com/YaleArchivesSpace/print.git
+  - name: aspace_sitemap
+    git: true
+    branch: "main"
+    url: https://github.com/YaleArchivesSpace/aspace_sitemap.git

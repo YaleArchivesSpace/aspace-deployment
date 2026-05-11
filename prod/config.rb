@@ -400,5 +400,12 @@ AppConfig[:container_management_labels_autoscale] = {
 }
 
 # Controls whether OPAC/Orbis catalog links appear on Resource records in the PUI.
+
 # Used by the aspace_yale_pui plugin (see models/resource_ext.rb).
 AppConfig[:show_opac_link] = false
+
+# Google Search Console verification for Archives at Yale
+AppConfig[:google_verification_meta_tag] = "iWZx_tHItJn--LwbfisrH_6w4b0HMxKcfkOpgfAZXO4"
+
+# This controls the cron schedule for the aspace_sitemap plugin
+AppConfig[:aspace_sitemap_cron] = "0 1 * * 6" # Fridays at 1am UTC
