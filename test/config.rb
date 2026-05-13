@@ -256,6 +256,7 @@ AppConfig[:aeon_client_repo_codes] = [
   "BRBL",
   "Divinity",
   "Fortunoff_Testimonies",
+  "Law",
   "Medical",
   "MSSA",
   "Music",
