@@ -139,6 +139,18 @@ AppConfig[:aeon_fulfillment] = {
     :requests_permitted_for_born_digital => true,
     :aeon_site_code => "MSS"
   },
+  "law" => {
+    :aeon_web_url => "https://aeon-test.library.yale.edu/aeon.dll",
+    :aeon_return_link_label => "Return to Archives at Yale",
+    :aeon_external_system_id => "ArchivesSpace",
+    :request_in_new_tab => true,
+    :requests_permitted_for_containers_only => true,
+    :hide_button_for_access_restriction_types => ['NoRequest'],
+    :hide_button_for_accessions => true,
+    :document_type_map => {:default => 'Manuscript'},
+    :web_request_form_map => {:default => 'GenericRequestManuscript'},
+    :aeon_site_code => "LAW"
+  },
   "music" => {
     :aeon_web_url => "https://aeon-test.library.yale.edu/aeon.dll",
     :aeon_return_link_label => "Return to Archives at Yale",
