@@ -434,3 +434,11 @@ AppConfig[:show_opac_link] = false
 # This controls the cron schedule for the aspace_sitemap plugin
 # To start, we will run this Fridays at 1AM
 AppConfig[:aspace_sitemap_cron] = "0 1 * * 6"
+
+# To test/support as-cors plugin
+AppConfig[:cors_allow_origin] = 'https://aeon-test.library.yale.edu'
+AppConfig[:cors_endpoints] = [
+  '/users/:id/login',
+  '/repositories/:repo_id/search',
+  '/plugins/yale_as_requests/search',
+]

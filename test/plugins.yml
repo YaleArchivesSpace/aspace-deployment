@@ -123,3 +123,7 @@ plugins:
     git: true
     branch: "main"
     url: https://github.com/YaleArchivesSpace/aspace_sitemap.git
+  - name: as-cors
+    git: true
+    branch: "base"
+    url: https://github.com/RockefellerArchiveCenter/as-cors.git
