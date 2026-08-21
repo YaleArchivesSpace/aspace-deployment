@@ -99,7 +99,7 @@ AppConfig[:aeon_fulfillment] = {
     :hide_button_for_accessions => true,
     :document_type_map => {:default => 'Manuscript'},
     :web_request_form_map => {:default => 'GenericRequestManuscript'},
-    :aeon_site_code => "ART"
+    :aeon_site_code => "BRBL"
   },
   "brbl" => {
     :aeon_web_url => "https://aeon.library.yale.edu/aeon.dll",
