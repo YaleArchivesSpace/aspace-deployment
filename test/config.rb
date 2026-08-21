@@ -94,7 +94,7 @@ AppConfig[:pui_repos] = {
 
 # Note that without explicit "requests_permitted_for_born_digital" parameter, requests for born digital items will not be permitted
 AppConfig[:aeon_fulfillment] = {
-  "arts" => {
+  "brbl-arts" => {
     :aeon_web_url => "https://aeon-test.library.yale.edu/aeon.dll",
     :aeon_return_link_label => "Return to Archives at Yale",
     :aeon_external_system_id => "ArchivesSpace",
@@ -105,7 +105,7 @@ AppConfig[:aeon_fulfillment] = {
     :document_type_map => {:default => 'Manuscript'},
     :web_request_form_map => {:default => 'GenericRequestManuscript'},
     :requests_permitted_for_born_digital => true,
-    :aeon_site_code => "ART"
+    :aeon_site_code => "BRBL"
   },
   "brbl" => {
     :aeon_web_url => "https://aeon-test.library.yale.edu/aeon.dll",
@@ -151,7 +151,7 @@ AppConfig[:aeon_fulfillment] = {
     :web_request_form_map => {:default => 'GenericRequestManuscript'},
     :aeon_site_code => "LAW"
   },
-  "music" => {
+  "brbl-music" => {
     :aeon_web_url => "https://aeon-test.library.yale.edu/aeon.dll",
     :aeon_return_link_label => "Return to Archives at Yale",
     :aeon_external_system_id => "ArchivesSpace",
@@ -264,14 +264,14 @@ AppConfig[:aeon_client_max_results] = 3000
 AppConfig[:aeon_client_username] = 's_lib_t_aeon_search'
 AppConfig[:aeon_client_password] = ENV.fetch("YALE_TEST_AEON_CLIENT_PASSWORD", nil)
 AppConfig[:aeon_client_repo_codes] = [
-  "Arts",
+  "BRBL-Arts",
   "BRBL",
   "Divinity",
   "Fortunoff_Testimonies",
   "LAW",
   "Medical",
   "MSSA",
-  "Music",
+  "BRBL-Music",
   "OHAM",
   "Walpole",
   "YCBA-IA",
