@@ -57,7 +57,7 @@ plugins:
     url: https://github.com/YaleArchivesSpace/digitization_work_order.git
   - name: yale_as_requests
     git: true
-    branch: "yale_test-2026-09-02-aeon-field-names-v1"
+    branch: "yale_test-2026-09-03-aeon-field-names-v2"
     url: https://github.com/YaleArchivesSpace/yale_as_requests.git
   - name: in_a_rush
     git: true
