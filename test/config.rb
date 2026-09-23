@@ -435,6 +435,18 @@ AppConfig[:show_opac_link] = false
 # To start, we will run this Fridays at 1AM
 AppConfig[:aspace_sitemap_cron] = "0 1 * * 6"
 
+# Object types included in the sitemap (cron and manual runs).
+# Digital objects and digital object components are intentionally excluded.
+AppConfig[:allowed_sitemap_types_hash] = {
+  'resource'               => 'resources',
+  'accession'              => 'accessions',
+  'archival_object'        => 'archival_objects',
+  'agent_person'           => 'people',
+  'agent_family'           => 'families',
+  'agent_corporate_entity' => 'corporate_entities',
+  'agent_software'         => 'software'
+}
+
 # To test/support as-cors plugin
 AppConfig[:cors_allow_origin] = 'https://aeon-test.library.yale.edu'
 AppConfig[:cors_endpoints] = [
