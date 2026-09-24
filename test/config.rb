@@ -447,6 +447,9 @@ AppConfig[:allowed_sitemap_types_hash] = {
   'agent_software'         => 'software'
 }
 
+AppConfig[:aspace_sitemap_use_filesystem]   = false
+AppConfig[:aspace_sitemap_default_base_url] = "https://yalearchivesspace.github.io/aspace-sitemaps/test/"
+
 # To test/support as-cors plugin
 AppConfig[:cors_allow_origin] = 'https://aeon-test.library.yale.edu'
 AppConfig[:cors_endpoints] = [
