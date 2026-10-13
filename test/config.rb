@@ -457,3 +457,6 @@ AppConfig[:cors_endpoints] = [
   '/repositories/:repo_id/search',
   '/plugins/yale_as_requests/search',
 ]
+
+# Allow creating missing enums in batch imports to be configurable
+AppConfig[:import_create_missing_enums] = false
