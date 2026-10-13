@@ -411,3 +411,6 @@ AppConfig[:google_verification_meta_tag] = "iWZx_tHItJn--LwbfisrH_6w4b0HMxKcfkOp
 AppConfig[:aspace_sitemap_cron] = "0 1 * * 6" # Fridays at 1am UTC
 AppConfig[:aspace_sitemap_use_filesystem] = false
 AppConfig[:aspace_sitemap_default_base_url] = "https://yalearchivesspace.github.io/aspace-sitemaps/"
+
+# Allow creating missing enums in batch imports to be configurable
+AppConfig[:import_create_missing_enums] = false
